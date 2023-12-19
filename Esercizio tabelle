@@ -10,126 +10,128 @@
   <table>
     <thead>
       <tr>
-        <th>Paesi</th>
-        <th>Capitale</th>
-        <th>Bandiere</th>
+        <th align="center">Paesi</th>
+        <th align="center">Capitale</th>
+        <th align="center">Bandiere</th>
       </tr>
     </thead>
     <tbody>
-  <tr>
+      <tr>
         <td>Austria</td>
         <td>Vienna</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\Austria.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\Austria.png" width="30px" height="20px"></td>
       </tr>
       <tr>
         <td>Belgio</td>
         <td>Bruxelles</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\belgio.jpeg" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\belgio.jpeg" width="30px" height="20px"></td>
       </tr>
       <tr>
         <td>Bulgaria</td>
         <td>Sofia</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\bulgaria.png" width="30px" height="20px"> </td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\bulgaria.png" width="30px" height="20px"> </td>
       </tr>
+      <tr>
         <td>Cipro</td>
         <td>Nicosia</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\cipro.jpg" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\cipro.jpg" width="30px" height="20px"></td>
       </tr>
         <td>Croazia</td>
         <td>Zagabria</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\croazia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\croazia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Danimarca</td>
         <td>Copenaghen</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\danimarca.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\danimarca.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Estonia</td>
         <td>Tallinn</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\estonia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\estonia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Finlandia</td>
         <td>Helsinki</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\finlandia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\finlandia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Francia</td>
         <td>Parigi</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\francia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\francia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Germania</td>
         <td>Berlino</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\germania.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\germania.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Grecia</td>
         <td>Atene</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\grecia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\grecia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Irlanda</td>
         <td>Dublino</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\irlanda.jpg" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\irlanda.jpg" width="30px" height="20px"></td>
       </tr><tr>
         <td>Italia</td>
         <td>Roma</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\Italia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\Italia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Lettonia</td>
         <td>Riga</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\lettonia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\lettonia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Lituania</td>
         <td>Vilnius</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\lituania.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\lituania.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Lussemburgo</td>
         <td>Lussemburgo</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\Lussenburgo.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\Lussenburgo.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Malta</td>
         <td> La Valletta</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\malta.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\malta.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Paesi Bassi</td>
         <td>Amsterdam</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\paesi bassi.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\paesi bassi.png" width="30px" height="20px"></td>
       </tr>
         <td>Polonia</td>
         <td>Varsavia</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\polonia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\polonia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Portogallo</td>
         <td>Lisbona</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\portogallo.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\portogallo.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Repubblica Ceca
         </td>
         <td>Praga</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\Repp. ceca.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\Repp. ceca.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Romania</td>
         <td>Bucarest</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\romania.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\romania.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Slovacchia</td>
         <td>Bratislava</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\slovacchia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\slovacchia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Slovenia</td>
         <td>Lubiana</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\slovenia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\slovenia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Spagna</td>
         <td>Madrid</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\spagna.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\spagna.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Svezia</td>
         <td>Stoccolma</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\svezia.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\svezia.png" width="30px" height="20px"></td>
       </tr><tr>
         <td>Ungheria</td>
         <td>Budapest</td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\ungheria.png" width="30px" height="20px"></td>
+        <td align="center"><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Sito\Esercizio Tabelle 191223\ungheria.png" width="30px" height="20px"></td>
       </tr>
     </tbody>
   </table>
 
 </body>
 </html>
+
