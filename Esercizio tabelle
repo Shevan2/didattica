@@ -1,1 +1,135 @@
-Cipro
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabella</title>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Paesi</th>
+        <th>Capitale</th>
+        <th>Bandiere</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Righe della tabella -->
+      <tr>
+        <td>Austria</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr>
+      <tr>
+        <td>Belgio</td>
+        <td>Riga 2</td>
+        <td>Riga 2</td>
+      </tr>
+      <tr>
+        <td>Bulgaria</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr>
+        <td>Cipro</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr><tr>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+        <td>Riga 1</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
