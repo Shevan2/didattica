@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova intestazione</title>
+    <style>
+        body {
+            
+            background: url("https://pixabay.com/it/photos/image-8437764/") repeat;
+            
+        }
+
+        header {
+            background-color: antiquewhite; 
+            padding: 10px;
+        }
+
+        nav {
+            background: linear-gradient(to right, white, lightgray); 
+        }
+
+        main {
+            background-color: lightgray; 
+            padding: 20px;
+        }
+
+        footer {
+            background-color: darkgray; 
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Il Mio Sito</h1>
+    </header>
+
+    <nav>
+        
+        <ul>
+            <li><a href="https://pixabay.com/it/photos/montagne-lago-casa-casa-sul-lago-1587287/">Home</a></li>
+            <li><a href="https://pixabay.com/it/illustrations/sociale-social-media-comunicazione-3064515/">Servizi</a></li>
+            <li><a href="https://www.istockphoto.com/photo/keyboard-message-mail-gm160948731-15675077?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fit%2Fimages%2Fsearch%2Fmail%2F&utm_term=mail">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <h2>Benvenuti nel Miosito di prova!!!</h2>
+        <p>Prima o poi trovere qualcosa di interessante</p>
+    </main>
+
+    <footer>
+        
+        <p> 2024 o 2024</p>
+    </footer>
+
+</body>
+</html>
