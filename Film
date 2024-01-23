@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    .Immagini {
+      display: flex; 
+      margin-bottom: 20px; 
+      width: 250px; 
+      height: 200px;
+       }
+
+    .Immagini img {
+      width: 50%; 
+      height: auto; 
+      margin-bottom: 10px;
+      border: 1px solid #110303;
+      margin-right: 5px; 
+      margin-left: 5px;
+      background-color: lightcoral;
+      
+    }
+    .titolo {
+      font-size: small;
+      text-align: center;
+      margin-top: 5px;
+      
+      
+    } 
+    .h1 {
+      /*font-size: small;
+        text-align: center;
+        text-size-adjust: 5px;*/
+      
+    }
+    
+  </style>
+  <title>Film 2024</title>
+</head>
+<body>
+
+
+  <div class="Immagini">
+    
+    <div class="titolo">  </div>
+    <img src="Jocker2.jpg" alt="Joker: Folie à Deux">
+    <a target="_blank" href="https://www.imdb.com/title/tt11315808/" width="600" height="400">Joker:Folie à Deux</a>
+		</a>
+   
+    <img src="Dune2.jpg" alt="Dune - Parte 2">
+    <a target="_blank" href="https://www.imdb.com/title/tt15239678/?ref_=fn_al_tt_1" width="600" height="400">Dune - Parte 2</a>
+		
+    <div class="titolo"></div>
+  </div>
+
+  <div class="Immagini">
+    <div class="titolo"></div>
+    <img src="Kraven.jpg" alt="Kraven">
+    <a target="_blank" href="https://www.imdb.com/title/tt8790086/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_kraven" width="600" height="400">Kraven</a>
+    
+    <img src="Ghostbusters - Minaccia glaciale.jpg" alt="Ghostbusters - Minaccia glaciale">
+    <a target="_blank" href="https://www.imdb.com/title/tt21235248/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_ghostbuster" width="600" height="400">Ghostbusters - Minaccia glaciale</a>
+    <div class="titolo"></div>
+</div>
+
+  <div class="Immagini">
+    <img src="Deadpool3.jpg" alt="Deadpool 3">
+    <a target="_blank" href="https://www.imdb.com/title/tt6263850/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_deadpool" width="600" height="400">Deadpool 3</a>
+
+    <div class="titolo"></div>
+    <img src="KungFuPanda4.jpg" alt="KungFuPanda4">
+    <a target="_blank" href="https://www.imdb.com/title/tt21692408/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_kung%2520fu%2520" width="600" height="400">Kung Fu Panda 4</a>
+    <div class="titolo"></div>
+  </div>
+
+</body>
+</html>
