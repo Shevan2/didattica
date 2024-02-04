@@ -92,10 +92,23 @@ p {
   text-align: center;
   padding: 10px 0;
 }
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block; 
+  background-color: #333;
+}
+
+.menu li {
+  display: inline; 
+  margin-right: 10px; 
+}
 .menu a {
   color: #4e9af7;
   text-decoration: none;
   padding: 8px 16px;
+  display: inline-block; 
 }
 .menu a:hover {
   background-color: #666666;
@@ -116,6 +129,14 @@ section {
   text-align: center; 
 }
      
+#home{ 
+        background-image: url(https://media.istockphoto.com/id/180333973/it/foto/stone-road-nella-foresta-magica-porta-alla-foschia-della-luce.jpg?s=2048x2048&w=is&k=20&c=gMMvUEMrPf3iAxicVeTYQ0an1MjUeov-DBeGTAes_3E=);
+        width: 95%;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+       
+      }
     </style>
   </head>
 
@@ -126,8 +147,7 @@ section {
       <a href="#novità">Novità</a>
       <a href="#libri">Libri</a>
       <a href="https://it.wikipedia.org/wiki/La_spada_della_verit%C3%A0" target="_blank">Autore</a>
-      <a href="#contatti">Contatti</a>
-      <a href="#about">About</a>
+      <a href="https://www.terrygoodkind.com/">Contatti</a>
     </div>
     
 
@@ -141,16 +161,20 @@ section {
     artista sregolato e restauratore di rari ed esotici artefatti ed antichità.
      Volse i suoi pensieri alla scrittura mentre costruiva la propria casa nella boscosa isola di Mount Desert, al largo della costa del Maine, nel 1983, con sua moglie Jeri.</p>
 </section>
-
+<section id="novità">
+  <h2>Novità</h2>
+  <p class="content">Terry Goodkind è morto all'età di 72 anni il 17 settembre 2020 nella sua casa a Boulder City. L'annuncio viene rilasciato pubblicamente lo stesso giorno dal suo staff tramite la sua pagina Facebook ufficiale. La causa del decesso non è stata rivelata.</p>
+</section>
     
-    <div style="text-align: center;">
-      <h1>La Spada Della verità</h1>
+    
+      <h1>Il Ciclo della Spada Della verità</h1>
     </div>
     
     <table>
-      <div style="text-align: center; color:#d4b010">
-      Book Title
-      </div>
+      <section id="libri">
+          <div style="text-align: center; color:#d4b010">
+                  Book Title
+          </div>
       <tr>
          
         <td><img src="https://i.ibb.co/4FVz61Z/51b8-Mea-VNOL.jpg"   alt="Wizard's First Rule" title="Wizard's First Rule" ></td>
@@ -176,7 +200,7 @@ section {
         <td><a href="https://www.amazon.it/Faith-Fallen-Terry-Goodkind/dp/0752843052/ref=sr_1_2?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2X8NI1WJBA4OF&keywords=faith+of+fallen&qid=1707042777&s=books&sprefix=faith+of+fallen%2Cstripbooks%2C89&sr=1-2" rel="nofollow">Faith of the Fallen	</a></td>
         <td><a href="https://www.amazon.it/Pillars-Creation-7-Terry-Goodkind/dp/0765340747/ref=sr_1_3?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1M1YAPPU2GIER&keywords=pillars+of+creation&qid=1707042821&s=books&sprefix=pillars+of+creation%2Cstripbooks%2C87&sr=1-3" rel="nofollow">Pillars of Creation</a></td>
       </tr>
+    </section>
     </table>
   </body> 
-  </html>
   </html>
