@@ -2,98 +2,161 @@
 <html>
   <head>
     <style>
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        
-      }
-  
-      td {
-        border: 1px solid black;
-        text-align: center;
-        vertical-align: top;
-        
-      }
-  
-      a {
-        display: inline;
-      }
-  
-      img {
-        width: 100%; 
-        height: 100%; 
-        object-fit: cover;
-        
-      }
-      body, special {
-              background-color: coral;
-              text-decoration-style: solid;
-              text-shadow:2px 2px 5px red;
-              font-family: "Times New Roman", Times, serif;
-              text-align: center;
-            }
-            ul, h2 {
-                list-style-type: none;
-                  margin: 0;
-                  padding: 0;
-                  width: 200px;
-                  background-color: light coral;
-                  text-align: left;
-                }
+  table {
+            background-color: #333; 
+            width: 30%; 
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+  td      {
+            border: none;
+            text-align: center;
+            vertical-align: top;
+            padding: 0 5px; 
+        }
+  a     {
+    display: block; 
+    color: #1E90FF; 
+    padding: 8px 16px;
+    text-decoration: none;
+        }
+a:hover {
+    background-color: #555; 
+    color: white;
+}
+img {
+  width: auto; 
+  height: auto;
+  object-fit: contain;
+  display: inline-block; 
+}
+
+body, special {
+    background-color: #121212;
+    color: #ddd;
+    text-decoration-style: solid;
+    text-shadow: 2px 2px 5px #000; 
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+h2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #444; 
+    color: #ddd; 
+    text-align: center;
+    padding: 10px 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+    text-align: center; 
+}
+
+li {
+    display: inline; 
+    margin-right: 10px;
+}
 
 li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-  font-size: large;
+    display: inline-block;
+    color: #ddd; 
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: large;
 }
-
-
-li a:hover {
-  background-color: #555;
+td img {
+    width: 150px;
+    height: 225px;
+    object-fit: contain; 
+}
+div {
+    color: #ddd; 
+  }
+.special {
+    text-align: center;
+}
+h1{ color: red;
+}
+h2{color:#10c4db}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+.menu {
+  background-color: #2b2b2b;
+  text-align: center;
+  padding: 10px 0;
+}
+.menu a {
+  color: #4e9af7;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+.menu a:hover {
+  background-color: #666666;
   color: white;
 }
-      div {
-        color: rgb(47, 96, 202);
+.content {
+  text-shadow: 2px 2px 4px #333333;
+  max-width: 800px; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; 
+}
 
-          }
-      .special { text-align: center;
-
-      }
-
-
+section {
+  padding: 20px;
+  color: #cccccc;
+  background-color: #1e1e1e;
+  text-align: center; 
+}
      
     </style>
   </head>
 
   <body>
     <h2>Menù</h2>
+    <div class="menu">
+      <a href="#home">Home</a>
+      <a href="#novità">Novità</a>
+      <a href="#libri">Libri</a>
+      <a href="https://it.wikipedia.org/wiki/La_spada_della_verit%C3%A0" target="_blank">Autore</a>
+      <a href="#contatti">Contatti</a>
+      <a href="#about">About</a>
+    </div>
+    
 
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#novità">Novità</a></li>
-  <li><a href="#contatti">Contatti</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="https://it.wikipedia.org/wiki/La_spada_della_verit%C3%A0">Autor</a></li>
-</ul>
+
+<section id="home">
+  <h1>La Spada Della Verità</h1>
+  <h2>Terry Goodkind</h2>
+  <img src="https://www.gollancz.co.uk/wp-content/uploads/2020/09/Terry-Goodkind-photo-by-Sandy-Aquila.png?resize=230,300" alt="Terry Goodkind" title="Terry Goodkind" width="50%">
+  <p class="content">Nato nel 1948, crebbe ad Omaha (Nebraska), dove seguì corsi d'arte. Soffrendo di dislessia,
+    la quale gli procurò durante il liceo "una costante ridicolizzazione ed umiliazione dai suoi insegnanti", abbandonò il college e lavorò come carpentiere, liutaio,
+    artista sregolato e restauratore di rari ed esotici artefatti ed antichità.
+     Volse i suoi pensieri alla scrittura mentre costruiva la propria casa nella boscosa isola di Mount Desert, al largo della costa del Maine, nel 1983, con sua moglie Jeri.</p>
+</section>
 
     
     <div style="text-align: center;">
       <h1>La Spada Della verità</h1>
-      <h2>Terry Goodkind</h2>
     </div>
     
     <table>
-      <div style="text-align: center;">
+      <div style="text-align: center; color:#d4b010">
       Book Title
       </div>
       <tr>
          
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Esercizio Spada\51b8MeaVNOL.jpg"  alt="Wizard's First Rule" title="Wizard's First Rule" ></td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Esercizio Spada\Stone_of_Tears.jpg"  alt="Stone of Tears" title="Stone of Tears" /></td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Esercizio Spada\51GgXAaT0OS.jpg"  alt="Blood of the Fold" title="Blood of the Fold" ></a></td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Esercizio Spada\tempio.jpg"  alt="Temple of the Winds"  title="Temple of the Winds"></a></td>
+        <td><img src="https://i.ibb.co/4FVz61Z/51b8-Mea-VNOL.jpg"   alt="Wizard's First Rule" title="Wizard's First Rule" ></td>
+        <td><img src="https://i.ibb.co/4fDbbYX/Stone-of-Tears.jpg"  alt="Stone of Tears" title="Stone of Tears" /></td>
+        <td><img src="https://i.ibb.co/y5LZxBh/51-Gg-XAa-T0-OS.jpg"  alt="Blood of the Fold" title="Blood of the Fold" ></a></td>
+        <td><img src="https://i.ibb.co/89mqg50/tempio.jpg"  alt="Temple of the Winds"  title="Temple of the Winds"></a></td>
       </tr>
       <tr>
         <td><a href="https://www.ibs.it/spada-della-verita-vol-1-libro-terry-goodkind/e/9788834716199" rel="nofollow" >Wizard's First Rule</a></td>
@@ -102,17 +165,18 @@ li a:hover {
         <td><a href="https://www.amazon.it/spada-della-verit%C3%A0-4/dp/8834712153/ref=sr_1_3?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3QP2O0AVDV32D&keywords=la+spada+della+verit%C3%A0+vol+3&qid=1707040962&s=books&sprefix=la+spada+della+verit%C3%A0+vol+3%2Cstripbooks%2C127&sr=1-3" rel="nofollow">Temple of the Winds	</a></td>
       </tr>
       <tr>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Esercizio Spada\71GARNntabL.jpg"   alt="Debt of Bones" title="Debt of Bones"></td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Esercizio Spada\51lxWnyIX8L.jpg"  alt="Soul of the Fire" title="Soul of the Fire" /></td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Esercizio Spada\9780752889757_0_424_0_75.jpg" alt="Faith of the Fallen" title="Faith of the Fallen"></a></td>
-        <td><img src="C:\Users\Diond\OneDrive\Desktop\Corso WebDeveloper\Esercizio Spada\9780752889740_0_424_0_75.jpg"  alt="Pillars of Creation" title="Pillars of Creation"></a></td>
+        <td><img src="https://i.ibb.co/5nzQvDd/71-GARNntab-L.jpg"   alt="Debt of Bones" title="Debt of Bones"></td>
+        <td><img src="https://i.ibb.co/kB0HQp6/51lx-Wny-IX8-L.jpg"  alt="Soul of the Fire" title="Soul of the Fire" /></td>
+        <td><img src="https://i.ibb.co/GJRsQBY/9780752889757-0-424-0-75.jpg" alt="Faith of the Fallen" title="Faith of the Fallen"></a></td>
+        <td><img src="https://i.ibb.co/jwFx5Hv/9780752889740-0-424-0-75.jpg"  alt="Pillars of Creation" title="Pillars of Creation"></a></td>
       </tr>
       <tr> 
-        <td><a href="https://www.ibs.it/spada-della-verita-vol-1-libro-terry-goodkind/e/9788834716199" rel="nofollow">Debt of Bones</a></td>
-        <td><a href="https://www.ibs.it/pietra-delle-lacrime-libro-terry-goodkind/e/9788834707197?queryId=18f5b16a31534a3b560635f4d4ec14be" rel="nofollow">Soul of the Fire</td>
+        <td><a href="https://www.amazon.it/Debt-Bones-Terry-Goodkind/dp/0575072563/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=18WIAQ2LGAVOS&keywords=debito+di+ossa&qid=1707045243&s=books&sprefix=debito+di+ossa%2Cstripbooks%2C105&sr=1-1-catcorr" rel="nofollow">Debt of Bones</a></td>
+        <td><a href="https://www.amazon.it/Soul-Fire-5-Terry-Goodkind/dp/0812551494/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=T2D44YKGE7MU&keywords=soul+of+the+fire+terry+goodkind&qid=1707045276&s=books&sprefix=soul+of+the+fire+terry+goodkind%2Cstripbooks%2C86&sr=1-1" rel="nofollow">Soul of the Fire</td>
         <td><a href="https://www.amazon.it/Faith-Fallen-Terry-Goodkind/dp/0752843052/ref=sr_1_2?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2X8NI1WJBA4OF&keywords=faith+of+fallen&qid=1707042777&s=books&sprefix=faith+of+fallen%2Cstripbooks%2C89&sr=1-2" rel="nofollow">Faith of the Fallen	</a></td>
         <td><a href="https://www.amazon.it/Pillars-Creation-7-Terry-Goodkind/dp/0765340747/ref=sr_1_3?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1M1YAPPU2GIER&keywords=pillars+of+creation&qid=1707042821&s=books&sprefix=pillars+of+creation%2Cstripbooks%2C87&sr=1-3" rel="nofollow">Pillars of Creation</a></td>
       </tr>
     </table>
   </body> 
+  </html>
   </html>
