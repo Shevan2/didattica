@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
+    <title>Squadre di Serie A</title>
+    <style>
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Protest Guerrilla", sans-serif;
+    }
+    
+    .Squadra {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+    
+    .Squadra img {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    }
+    
+    .Squadra p {
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        box-sizing: border-box;
+  
+    }
+    .Inter p {background: rgba(0, 128, 255, 0.7); }
+    .Milan p { background: rgba(255, 0, 0, 0.7); }
+    .Juve p { background: rgba(0, 255, 0, 0.7); }
+    .Napoli p { background: rgba(255, 255, 0, 0.7); }
+      
+    @media (min-width: 421px) {
+        .Squadra {
+            width: 23%;
+            margin: 0 1%;
+            float: left;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <div class="Squadra">
+        <img src="https://wips.plug.it/cips/sport.virgilio.it/img/squadre/127.jpg?w=507&a=r" alt="Inter">
+        <p class="Inter">Squadra Campionato 2023/2024 </p>
+    </div>
+
+    <div class="Squadra">
+        <img src="https://www.milanlive.it/wp-content/uploads/2023/08/formazione-180823-Milanlive.it_.jpg" alt="Milan">
+        <p class="Milan"> Squadra Campionato 2023/2024 </p>
+    </div>
+
+    <div class="Squadra">
+        <img src="https://wips.plug.it/cips/sport.virgilio.it/img/squadre/128.jpg?w=507&a=r" alt="Juventus">
+        <p class="Juve">Squadra Campionato 2023/2024</p>
+    </div>
+
+    <div class="Squadra">
+        <img src="https://www.sportdelsud.it/wp-content/uploads/2023/03/TORINO-NAPOLI-SQUADRA-NAPOLI-FOTO-MOSCA-1024x683.jpg" alt="Napoli">
+        <p class="Napoli">Squadra Campionato 2023/2024</p>
+    </div>
+
+</body>
+</html>
