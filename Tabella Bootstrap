@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unione europea</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        #uno{background: lightblue;}
+        #due{background: lightgreen;}
+        #tre{background: lightsalmon;}
+    
+    </style>
+</head>
+<body>
+
+    <div class="container text-center">
+        <div class="row">
+                <table class="table table-bordered">
+            <div class="col-4" id="uno">Paesi</div>
+            <div class="col-4" id="due">Capitale</div>
+            <div class="col-4" id="tre">Bandiera</div>
+        </div>
+        <div class="row">
+            
+            <div class="col-4" id="quattro">Belgio</div>
+            <div class="col-4" id="cinque">Bruxelles</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/j3zQLBq/belgio.jpg" alt="Bandiera Belgio" width="20px" height="15px"></div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="quattro">Bulgaria</div>
+            <div class="col-4" id="cinque">Sofia</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/PmWkFBS/bulgaria.png" alt="Bandiera Austria" width="20px" height="15px"></div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="quattro">Cipro</div>
+            <div class="col-4" id="cinque">Nicosia</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/Z2xVGkw/cipro.jpg" alt="Bandiera Cipro" width="20px" height="15px"></div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="quattro">Croazia</div>
+            <div class="col-4" id="cinque">Zagabria</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/rsxyZ65/croazia.png" alt="Bandiera Croazia" width="20px" height="15px"></div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="quattro">Danimarca</div>
+            <div class="col-4" id="cinque">Copenaghen</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/WFYb2h3/danimarca.png" alt="Bandiera Danimarca" width="20px" height="15px"></div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="quattro">Estonia</div>
+            <div class="col-4" id="cinque">Tallinn</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/t3Wd8p7/estonia.png" alt="Bandiera Estonia" width="20px" height="15px"></div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="quattro">Finlandia</div>
+            <div class="col-4" id="cinque">Helsinki</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/kh9Q52M/finlandia.png" alt="Bandiera Finlandia" width="20px" height="15px"></div>
+        </div> <div class="row">
+            <div class="col-4" id="quattro">Francia</div>
+            <div class="col-4" id="cinque">Parigi</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/cN5f5Vj/francia.png" alt="Bandiera Francia" width="20px" height="15px"></div>
+        </div> <div class="row">
+            <div class="col-4" id="quattro">Germania</div>
+            <div class="col-4" id="cinque">Berlino</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/JmdQ9xz/Flag-of-Germany-svg.png" alt="Bandiera Germania" width="20px" height="15px"></div>
+        </div> <div class="row">
+            <div class="col-4" id="quattro">Grecia</div>
+            <div class="col-4" id="cinque">Atene</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/BTcT8BK/grecia.png" alt="Bandiera Grecia" width="20px" height="15px"></div>
+        </div> <div class="row">
+            <div class="col-4" id="quattro">Irlanda</div>
+            <div class="col-4" id="cinque">Dublino</div>
+            <div class="col-4" id="sei"><img src="https://i.ibb.co/Dfzkst7/irlanda.jpg" alt="Bandiera Irlanda" width="20px" height="15px"></div>
+        </div>
+     <div class="row">
+        <div class="col-4" id="quattro">Italia</div>
+        <div class="col-4" id="cinque">Roma</div>
+        <div class="col-4" id="sei"><img src="https://i.ibb.co/8gt9sKJ/Italia.png" alt="Bandiera Italia" width="20px" height="15px"></div>
+    </div>
+ <div class="row">
+    <div class="col-4" id="quattro">Lettonia</div>
+    <div class="col-4" id="cinque">Riga</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/cYMdTS8/lettonia.png" alt="Bandiera Lettonia" width="20px" height="15px"></div>
+</div>
+ <div class="row">
+    <div class="col-4" id="quattro">Lituania</div>
+    <div class="col-4" id="cinque">Vilnius</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/nLSRkFX/lituania.png" alt="Bandiera Lituania" width="20px" height="15px"></div>
+</div>
+ <div class="row">
+    <div class="col-4" id="quattro">Lussemburgo</div>
+    <div class="col-4" id="cinque">Lussemburgo</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/b7GQmx7/Lussenburgo.png" alt="Bandiera Lussemburgo" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">Malta</div>
+    <div class="col-4" id="cinque">La Valletta</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/gDVXHCB/malta.png" alt="Bandiera Malta" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">paesi-bassi</div>
+    <div class="col-4" id="cinque">Amsterdam</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/jV6rxCy/paesi-bassi.png" alt="Bandiera paesi-bassi" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">Polonia</div>
+    <div class="col-4" id="cinque">Varsavia</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/986K0xX/polonia.png" alt="Bandiera polonia" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">Portogallo</div>
+    <div class="col-4" id="cinque">Lisbona</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/w7PpTVd/portogallo.png" alt="Bandiera Portogallo" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">Repubblica Cieca</div>
+    <div class="col-4" id="cinque">Praga</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/1q8JBkd/Repp-ceca.png" alt="Bandiera Reppublica Cieca" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">Romania</div>
+    <div class="col-4" id="cinque">Bucarest</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/0ZJkZv2/romania.png" alt="Bandiera Romania" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">Slovacchia</div>
+    <div class="col-4" id="cinque">Bratislava</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/mqHyj9S/slovacchia.png" alt="Bandiera Slovacchia" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">Slovenia</div>
+    <div class="col-4" id="cinque">Lubiana</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/V9fDs8W/slovenia.png" alt="Bandiera Slovenia" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">Spagna</div>
+    <div class="col-4" id="cinque">Madrid</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/jkf5cXY/spagna.png" alt="Bandiera Spagna" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">Svezia</div>
+    <div class="col-4" id="cinque">Stoccolma</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/7Xt58Yg/svezia.png" alt="Bandiera Svezia" width="20px" height="15px"></div>
+</div>
+<div class="row">
+    <div class="col-4" id="quattro">Ungheria</div>
+    <div class="col-4" id="cinque">Bucarest</div>
+    <div class="col-4" id="sei"><img src="https://i.ibb.co/WysYWcS/ungheria.png" alt="Bandiera Ungheria" width="20px" height="15px"></div>
+</div>
+
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+</body>
+</html>
