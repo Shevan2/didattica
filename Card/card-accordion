@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-k6BBFTJCKLtvC08MrGaQ6A03J5LraW85E59CP1kKkDD99jJBCVpTnckVD/nMe6wnvzD0CzohdNMSvFVEElqX8g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://www.flaticon.com/free-animated-icon/shopping-cart_6172531?related_id=6172531">
+
+    <style>
+        body {
+          background-color: rgb(159, 159, 159);
+        }
+        .card-video {
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 190px;
+            width: 100%;
+         }
+         .color-bottom:hover {
+          background-color: grey;
+         }
+         .color-bottom {
+          border-color: transparent;
+          background-color: aliceblue;
+          color: blueviolet;
+          padding: 10px;
+          margin-bottom: 10px;
+          width: 100%;
+         }
+         .card-body {
+          height: 280px;
+          font-size: 16px;
+         }
+         .accordion-body {
+          color: rgb(114, 67, 67);
+         }
+         @media screen and (max-width:380px){
+
+          
+         }
+         
+         
+        
+                 
+    </style>
+</head>
+<body>
+    <!-- Contenitore Generale-->
+    <div class="container">
+        <!--Row dove metterò tre colonne con 3 card-->
+        <div class="row">
+            <!--Prima Colonna-->
+            <div class="col-4" style="background-color: rgb(105, 103, 100); margin-top: 20px; padding-top: 20px; padding-bottom: 20px;">
+                <!--Prima Card all'interno della Prima Colonna-->
+                <div class="card" style="width: 100%; background-color: rgb(197, 197, 197);">
+                    <!--<i class="bi bi-bag" style="font-size: 100px; padding-left: 104px;"></i>-->
+                    <!--<img src="" alt=""class="card-img-top" alt="...">-->
+                    <!--Contenitore del Primo Body-->
+                    <div class="card-video">
+                    <video style="background-color:transparent;" width="100px"  autoplay loop muted  src="shopping-cart.mp4" type="video/mp4"></video>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Shop</h5>
+                      <p class="card-text">Nel nostro negozio on-line, puoi trovare tutto ciò che ti serve a basso costo. Non ti mancherà fare file lunghissime alla cassa o farti strada tra la folla per vedere un prodotto e in puù per te ci sarà uno sconto, su una spesa pari o superiore a euro 50.</p>
+                      <a href="#" class="btn btn-primary color-bottom">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" style="background-color: rgb(105, 103, 100); margin-top: 20px; padding-top: 20px; padding-bottom: 20px;">
+                <!--Seconda Card all'interno della Seconda Colonna-->
+                <div class="card" style="width: 100%; background-color: rgb(197, 197, 197);">
+                    <!--<i class="bi bi-calendar2-plus" style="font-size: 100px; padding-left: 104px;"></i>-->
+                    <!--<img src="" alt=""class="card-img-top" alt="...">-->
+                    <!--Contenitore del Secondo Body-->
+                    <div class="card-video">
+                    <video width="100px" height="190px" autoplay loop muted  src="calendar.mp4" type="video/mp4"></video>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Scegli Giorno di Consegna</h5>
+                      <p class="card-text">Scegli data e ora per la consegna, per assicurarti di essere presente al momento della consegna. Senza dover saltare una giornata di lavoro o una uscita con gli amici.</p>
+                      <a href="#" class="btn btn-primary color-bottom">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" style="background-color: rgb(105, 103, 100); margin-top: 20px; padding-top: 20px; padding-bottom: 20px;">
+                <!--Terzo Card all'interno della Terzo Colonna-->
+                <div class="card" style="width: 100%; background-color: rgb(197, 197, 197);">
+                    <!--<i class="bi bi-chat" style="font-size: 100px; padding-left: 104px;"></i>-->
+                    <!--<img src="" alt=""class="card-img-top" alt="...">-->
+                    <!--Contenitore del Terzo Body-->
+                    <div class="card-video">
+                    <video width="100px" height="190px" autoplay loop muted  src="chat.mp4" type="video/mp4"></video>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Chatta con Noi</h5>
+                      <p class="card-text">Hai un problema? Con la nostra chat, potrai risolverlo in un batter d'occhio. Non avrai neanche il tempo di finire la tua bevanda preferita.</p>
+                      <a href="#" class="btn btn-primary color-bottom">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!--Inizio Accordion-->
+            <div class="accordion accordion-flush body-accordion" id="accordionFlushExample">
+              <!--Primo Accordion-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Posso Disdire il Abbonamento Quando Voglio?
+                    </button>
+                  </h2>
+                  <!--Contenitore Interno-->
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Certo, puoi disdire l'abbonamento quando vuoi.</div>
+                  </div>
+                  <!--Fine Contenitore -->
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Posso Cambiare il mio Abbonamento Quando Voglio
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Assolutamente. non c'è bisogno di aspettare che ti scada l'abbonamente per cambiarlo.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Il mio abbonamento si rinnoverà automaticamente?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Si il tuo abbonamento si rinnoverà automaticamente alla sua scadenza.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Quanto tempo impiega il rimborso ad arrivare, dopo aver rimandato indietro un prodotto?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Il rimborso avverrà dopo due o tre giorni lavorativi dalla riconsegna del suddetto prodotto.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Se voglio rimandare indietro un prodotto?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Hai trenta giorni, per rimandare indietro o sostituire un prodotto.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Quanto tempo Impiegata a rispondere ad una richiesta informazioni?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Con noi non c'è bisogno di aspettare, perchè parlerà istantaneamente con la nostra chat IA. Se non sarà soddisfatto verrà ricontattato tramite sua scelta (chat/chiamata), da un nostro collaboratore.</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous">
+    </script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous">
+    </script>
+</body>
+</html>
