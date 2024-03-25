@@ -17,24 +17,25 @@
             crossorigin="anonymous"
         />
 <style>
-    .progress-bar {
-        width: 25%;
-        background-color: blue;
-        transition: width 1s; 
-    }
+    
+    
+    .custom-progress-bar {
+    transition: width 1s; /* tempo di transizione */
+    width: 50%;
+    background-color: blue;
+                          }
 
-    .progress-bar:hover {
-        width: 50%; 
-    }
-
+.custom-progress-bar:hover {
+    width: 50%; /* Cambia la larghezza quando passo sopra con il mouse */
+                            }
     #pills-Profilo .card {
                 margin-right: 10px; 
-    }
+                          }
 
     #pills-Profilo {
         display: flex; /* per allienare le card in orizzontale */
         justify-content: space-between; /* Spazio tra le card*/
-    }
+                    }
 
 
     body {
@@ -43,7 +44,7 @@
             padding: 0;
             background-color: #f9f9f9;
         }
-        .Azienda {
+    .Azienda {
             width: 80%;
             margin: 20px auto;
             background-color: #fff;
@@ -51,15 +52,15 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+    h1 {
             text-align: center;
             margin-bottom: 20px;
         }
-        p {
+    p {
             text-align: justify;
             line-height: 1.6;
         }
-        .Recensioneclienti {
+    .Recensioneclienti {
             width: 80%;
             margin: 20px auto;
             background-color: #fff;
@@ -67,24 +68,24 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+    h1 {
             text-align: center;
             margin-bottom: 20px;
         }
-        .recensione {
+    .recensione {
             margin-bottom: 30px;
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 8px;
         }
-        .recensione .cliente {
+    .recensione .cliente {
             font-weight: bold;
             margin-bottom: 10px;
         }
-        .recensione .punteggio {
+    .recensione .punteggio {
             color: #ffd700; /* colore oro */
         }
-        .recensione .scritto {
+    .recensione .scritto {
             margin-top: 10px;
         }
 </style>
@@ -119,7 +120,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Benvenuti Alla card Home</h5>
                       <p class="card-text">In questa sezione troverete ogni cosa inerente alla casa. Il sito è in costruzione.
-                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress custom-progress-bar" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                             <div class="progress-bar" style="width: 25%">25%</div>
                           </div>
 
