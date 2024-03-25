@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+<style>
+    .progress-bar {
+        width: 25%;
+        background-color: blue;
+        transition: width 1s; 
+    }
+
+    .progress-bar:hover {
+        width: 50%; 
+    }
+
+    #pills-Profilo .card {
+                margin-right: 10px; 
+    }
+
+    #pills-Profilo {
+        display: flex; /* per allienare le card in orizzontale */
+        justify-content: space-between; /* Spazio tra le card*/
+    }
+
+
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .Azienda {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+        .Recensioneclienti {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .recensione {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .recensione .cliente {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .recensione .punteggio {
+            color: #ffd700; /* colore oro */
+        }
+        .recensione .scritto {
+            margin-top: 10px;
+        }
+</style>
+
+    </head>
+
+    <body>
+        <!-- Testata-->
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="padding-top: 15px; padding-left: 10px;">
+            <li class="nav-item" role="presentation">
+        <!--Sezione nav Home-->
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-Profilo-tab" data-bs-toggle="pill" data-bs-target="#pills-Profilo" type="button" role="tab" aria-controls="pills-Profilo" aria-selected="false">Profilo</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-Chisiamo-tab" data-bs-toggle="pill" data-bs-target="#pills-Chisiamo" type="button" role="tab" aria-controls="pills-Chisiamo" aria-selected="false">Chi siamo</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-recensioni-tab" data-bs-toggle="pill" data-bs-target="#pills-recensioni" type="button" role="tab" aria-controls="pills-recensioni" aria-selected="false" >Recensioni</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Domande-tab" data-bs-toggle="pill" data-bs-target="#pills-Domande" type="button" role="tab" aria-controls="pills-Domande" aria-selected="false">Domande</button>
+              </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <!--prima sezione-->
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0" style="padding-left: 15px;">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://media.istockphoto.com/id/1436083493/it/vettoriale/concetto-di-trasloco-e-trasloco-casa-in-scatola-illustrazioni-vettoriali-web-3d.jpg?s=1024x1024&w=is&k=20&c=vWls6qpKHoZe9XDmEPw4dyx47fcRRUkPSvR0BHax1Ko=" class="card-img-top" alt="Home">
+                    <div class="card-body">
+                      <h5 class="card-title">Benvenuti Alla card Home</h5>
+                      <p class="card-text">In questa sezione troverete ogni cosa inerente alla casa. Il sito è in costruzione.
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 25%">25%</div>
+                          </div>
+
+                      </p>
+                      <a href="#" class="btn btn-primary">Prosegui</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fine rima sezione-->
+            <!--Seconda sezione Profili-->
+            <div class="tab-pane fade" id="pills-Profilo" role="tabpanel" aria-labelledby="pills-Profilo-tab" tabindex="0"><div class="card" style="width: 18rem;">
+                <img src="https://media.istockphoto.com/id/965523228/it/foto/giovane-donna-sorridente-dai-capelli-lunghi-in-camicia-bianca.jpg?s=2048x2048&w=is&k=20&c=_2O27B4LoJQk4J34_hUCNAJmeF9L5oXPLJBxgoKdwlA=" class="card-img-top" alt="Marina">
+                <div class="card-body">
+                  <p class="card-text">Marina Nata a Milano. Lavora con l'azienda ??? da circa 2 anni come esperta analista di sistemi.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://media.istockphoto.com/id/1410538853/it/foto/giovane-nel-parco-pubblico.jpg?s=2048x2048&w=is&k=20&c=t99wi9Tksolj20I6oqdKrchYjVqN4Lw63b-VxNQN1tw=" class="card-img-top" alt="Jordan">
+                <div class="card-body">
+                  <p class="card-text">Jordan è il capo sezione del reparto informatico.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://cdn.pixabay.com/photo/2020/03/12/16/51/women-4925683_1280.jpg" class="card-img-top" alt="Anita">
+                <div class="card-body">
+                  <p class="card-text">Anita neo assunta nel reparto risorse umane.</p>
+                </div>
+              </div>
+            </div>
+            <!--Fine sezione profili-->
+            <!--Inizio scheda chi siamo-->
+            <div class="tab-pane fade" id="pills-Chisiamo" role="tabpanel" aria-labelledby="pills-Chisiamo-tab" tabindex="0"><div class="Azienda">
+              <h1>Benvenuti in Azienda ???</h1>
+              <p>Benvenuti in ???, un leader mondiale nel settore dell'import/export che connette aziende di tutto il mondo facilitando lo scambio di beni e servizi su scala globale. Con una vasta rete di partner e una profonda conoscenza dei mercati internazionali, siamo impegnati a fornire soluzioni di commercio efficienti e affidabili per soddisfare le esigenze dei nostri clienti.
+
+                La nostra azienda offre una gamma completa di servizi di import/export, tra cui assistenza logistica, gestione delle dogane, consulenza normativa, e altro ancora. Grazie alla nostra esperienza consolidata e alle solide relazioni con fornitori e acquirenti in tutto il mondo, siamo in grado di garantire consegne tempestive e costi competitivi per i nostri clienti.</p>
+              
+              <p>Presso Global Trade Solutions, ci impegniamo per l'eccellenza operativa e il servizio clienti di prima classe. La nostra squadra esperta e dedicata è pronta ad affrontare le sfide del mercato globale e ad adattarsi alle mutevoli esigenze dei nostri clienti. Siamo guidati dalla passione per il commercio internazionale e dalla visione di creare connessioni significative che favoriscano lo sviluppo economico e la prosperità in tutto il mondo.
+
+                Indipendentemente dalle dimensioni o dalla complessità delle vostre esigenze di import/export, ??? è qui per supportarvi in ogni passo del processo. Siamo pronti a collaborare con voi per sviluppare soluzioni su misura che favoriscano la crescita del vostro business e massimizzino il vostro successo sul mercato globale.</p>
+
+              <p>Unitevi a noi in ??? e scoprite come possiamo trasformare le vostre ambizioni commerciali in realtà. Contattateci oggi stesso per iniziare una partnership di successo nel mondo del commercio internazionale.</p>
+              </div>
+           </div>
+           <!--fine scheda chi siamo-->
+           <!--Inizio scheda recensioni-->
+            <div class="tab-pane fade" id="pills-recensioni" role="tabpanel" aria-labelledby="pills-recensioni-tab" tabindex="0">
+              <div class="Recensioneclienti">
+                <h1>Recensioni dei Clienti</h1>
+                
+                <div class="recensione">
+                    <div class="cliente">Mario Rossi</div>
+                    <div class="punteggio">★★★★★</div>
+                    <div class="scritto">Sono rimasto molto soddisfatto del servizio offerto da questa azienda. Il personale è cortese e competente, e il prodotto ricevuto è di ottima qualità.</div>
+                </div>
+                
+                <div class="recensione">
+                    <div class="cliente">Giulia Verdi</div>
+                    <div class="punteggio">★★★☆☆</div>
+                    <div class="scritto">Buon servizio complessivo, anche se la consegna è stata leggermente ritardata rispetto alla data prevista.</div>
+                </div>
+                
+                <div class="recensione">
+                    <div class="cliente">Luca Bianchi</div>
+                    <div class="punteggio">★★★★★</div>
+                    <div class="scritto">Consiglio vivamente questa azienda per la qualità dei prodotti e per l'attenzione al cliente. Ottima esperienza!</div>
+                </div>
+              </div>
+            </div>
+            <!--fine scheda recensioni-->
+            <!--Inizio sezione domande con accordion-->  
+            <div class="tab-pane fade" id="pills-Domande" role="tabpanel" aria-labelledby="pills-Domande-tab" tabindex="0" style="padding-top: 0;">
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Perchè contattare il servizio clienti di ???
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                          <strong>Il servizio clienti</strong> può aiutarti con ogni tuo problema. Come visualizzare i tempi di spedizione. Verificare lo stato della tua spedizione. I pagamenti. I rimborsi e le sostituzioni.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          Chi siamo.
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <strong>L'azienda ???</strong> è nata con lo scopo di unire piccole e grandi realtà a livello globale. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                           Quali sono i tempi di rimborso.
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <strong>Il rimborso risulterà</strong> accreditato sul tuo conto bancario o sull'estratto conto della carta di credito entro un massimo di 7 giorni lavorativi dall'emissione. Se la tua richiesta viene respinta, puoi contestare la decisione entro 30 giorni fornendo ulteriori informazioni o prove sull'ordine.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                           Quanto tempo hai per restituire un prodotto
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+                            <strong>Puoi restituire i prodotti acquistati su ???.it</strong> fino a 30 giorni di calendario dalla data di consegna degli stessi. In questo caso, rimborseremo il costo dell'articolo. Non ti verranno rimborsati i costi di spedizione sostenuti per ricevere il prodotto, la confezione regalo o altri servizi associati all'acquisto. 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                            Quanto vale la garanzia.
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+                            <strong>Quanto dura e qual è il termine entro cui si può far valere la garanzia sui beni?</strong>  Il venditore è responsabile per i difetti di conformità (esistenti al momento della consegna) che si manifestano nei 2 anni successivi alla consegna del bene stesso.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                           Facciamo anche spedizioni internazionali?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+                            <strong>Le spedizioni internazionali</strong> sono gestite in modo autonomo dalle filiali presenti nel paese. 
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!--Fine sezione domande con accordion-->
+              </div>
+          </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
