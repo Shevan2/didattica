@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>Primo Script</h1>
+    <p id="risultato">Vediamo cosa esce cliccando il pulsante sottostante. uscirà la somma delle tre variabili dello script di Javascript?</p>
+    <button id="calcola">Cliccami</button>
+<script>
+    var uno = 5;
+    var due = 8;
+    var tre = 3;
+    var somma = uno * due * tre;
+    /** 1) risultatoParagrafo, Richiama <p>
+     *  2) innerhtml, Richiama il codice Html
+     *  3) +=, permette di aggiungere del testo a quello già esistente, senza sovvrascriverlo
+     *  4) +somma, aggiunge la somma al testo, che verrà aggiunto al paragrafo**/
+    document.getElementById("calcola").addEventListener("click", function() {
+    var risultatoParagrafo = document.getElementById("risultato");
+    risultatoParagrafo.innerHTML = "si esce, il risultato è: <br> "  + somma;
+    });
+</script>
+
+</body>
+</html>
