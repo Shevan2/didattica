@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo dell'Iva</title>
+</head>
+<body>
+    <script>
+        // Funzione per aggiungere l'IVA al 22% al prezzo fornito
+        function calcolareIVA() {
+            var prezzo = prompt('Inserisci il prezzo'); // Qui per il prezzo del prodotto
+            var iva = 0.22;  // IVA al 22%
+            var ivacalcolata = prezzo * iva; // Calcolo dell'IVA
+            var prezzoConIVA = parseFloat(prezzo) + ivacalcolata; //parseFloat serve per garantire che il valore del prezzo venga letto come un valore numerico
+            return prezzoConIVA;
+        }
+
+        // Funzione per scorporare l'IVA dal prezzo incluso l'IVA
+        function scorporareIVA(prezzoConIVA) {
+            var prezzoSenzaIVA = prezzoConIVA / 1.22; // Scorporo dell'IVA
+            return prezzoSenzaIVA;
+        }
+
+        // Chiamata della funzione e stampa del risultato
+        var prezzoConIVA = calcolareIVA();
+        document.write("Il prezzo con IVA è: "+ prezzoConIVA.toFixed(2));  //toFixed(2) per arrotondare a due cifre decimali
+
+        // Chiamata della funzione per scorporare l'IVA e stampa del risultato
+        var prezzoSenzaIVA = scorporareIVA(prezzoConIVA);
+        document.write("<br>Il prezzo senza IVA è: " + prezzoSenzaIVA.toFixed(2)); //toFixed(2) per arrotondare a due cifre decimali
+    </script>
+</body>
+</html>
