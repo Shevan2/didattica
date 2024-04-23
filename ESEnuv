@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var pizza = prompt('Ti piace la pizza?');
+        var celiaco = false; 
+
+        if (pizza === 'si') {
+            alert('Puoi continuare a vivere');
+        }
+        else if (pizza === 'no') {
+            alert('Cambia nome');
+        }
+        else if (pizza === 'celiaco') {
+            alert('Allora va bene');
+        }
+    </script>
+</body>
+</html>
