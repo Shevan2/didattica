@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interazione Css e Javascript</title>
+</head>
+<body>
+    <div>
+        <p id="cambia">Cambierà solo il Font o accadranno altri eventi, che non hai previsto?</p>
+    </div>
+    <button id="mybutton" onclick="solof()"> Sorpresaa</button>
+
+<script>
+    function solof()
+    {
+        document.getElementById("cambia").style.fontFamily = "Arial, sans-serif";
+        document.getElementById("cambia").style.fontSize = "50px";
+        document.getElementById("cambia").style.color = "#2e9f82";
+        document.body.style.background = "#68c170";
+        document.getElementById("mybutton").style.color = "#3a4874";
+        document.getElementById("mybutton").style.fontSize = "40px";
+        document.getElementById("mybutton").style.fontFamily ="Arial, sans-serif";
+        document.getElementById("mybutton").style.backgroundColor = "#ffcc00";
+    }
+</script>    
+</body>
+</html>
