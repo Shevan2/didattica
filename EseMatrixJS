@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animazione con Pulsante</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: #f0f0f0;
+            position: relative;
+        }
+
+        .animateButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            position: relative;
+            z-index: 1;
+        }
+
+        .quadrato {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        #quadratoblu {
+            background-color: #3498db;
+            top: calc(50% - 200px); /* Position above the buttons */
+            left: calc(50% - 50px); /* Center horizontally */
+        }
+
+        #quadratorosso {
+            background-color: #e74c3c;
+            top: calc(50% + 200px); /* Position below the buttons */
+            left: calc(50% - 50px); /* Center horizontally */
+        }
+
+        .quadrato img {
+            width: 60%;
+            height: 100%;
+            object-fit: cover;
+            background: none;
+        }
+
+        @keyframes circleAround {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg) translateX(200px) rotate(0deg);
+            }
+            25% {
+                transform: translate(-50%, -50%) rotate(90deg) translateX(200px) rotate(-90deg);
+            }
+            50% {
+                transform: translate(-50%, -50%) rotate(180deg) translateX(200px) rotate(-180deg);
+            }
+            75% {
+                transform: translate(-50%, -50%) rotate(270deg) translateX(200px) rotate(-270deg);
+            }
+            100% {
+                transform: translate(-50%, -50%) rotate(360deg) translateX(200px) rotate(-360deg);
+            }
+        }
+
+        .animate-circle {
+            animation: circleAround 4s linear infinite;
+        }
+
+        @keyframes zigzag {
+            0% {
+                transform: translate(-50%, -50%) translateX(0) translateY(0);
+            }
+            25% {
+                transform: translate(-50%, -50%) translateX(150px) translateY(-150px);
+            }
+            50% {
+                transform: translate(-50%, -50%) translateX(300px) translateY(0);
+            }
+            75% {
+                transform: translate(-50%, -50%) translateX(150px) translateY(150px);
+            }
+            100% {
+                transform: translate(-50%, -50%) translateX(0) translateY(0);
+            }
+        }
+
+        .animate-zigzag {
+            animation: zigzag 4s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <button id="animateButton1" class="animateButton">Pillola BLU</button>
+    <button id="animateButton2" class="animateButton">Pillola ROSSA</button>
+    
+    <div id="quadratoblu" class="quadrato">
+        <img src="https://i.ibb.co/zPFkYc4/Pillola-BLU.jpg"  alt="Pillola-BLU">
+    </div>
+    <div id="quadratorosso" class="quadrato">
+        <img src="https://i.ibb.co/0hQTK8w/Pillola-Rossa.jpg"  alt="Pillola-Rossa">
+    </div>
+
+    <script>
+        document.getElementById('animateButton1').addEventListener('click', function() {
+            const quadratoblu = document.getElementById('quadratoblu');
+            if (!quadratoblu.classList.contains('animate-circle')) {
+                alert('Fine della storia: domani ti sveglierai in camera tua, e crederai a quello che vorrai.');
+            }
+            quadratoblu.classList.toggle('animate-circle');
+        });
+
+        document.getElementById('animateButton2').addEventListener('click', function() {
+            const quadratorosso = document.getElementById('quadratorosso');
+            if (!quadratorosso.classList.contains('animate-zigzag')) {
+                alert('Rimani nel paese delle meraviglie, e vedrai quantè profonda la tana del bianconiglio. Ti sto offrendo solo la verità, ricordalo. Niente di più.');
+            }
+            quadratorosso.classList.toggle('animate-zigzag');
+        });
+    </script>
+</body>
+</html>
