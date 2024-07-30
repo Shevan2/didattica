@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        .domande {
+            margin-bottom: 15px;
+        }
+        .opzioni label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Quiz in PHP</h2>
+        <form action="parte2.php" method="post">
+            <div class="domande">
+                <p>1. Quale è la capitale dell'Italia?</p>
+                <div class="opzioni">
+                    <label><input type="radio" name="q1" value="a"> Roma</label>
+                    <label><input type="radio" name="q1" value="b"> Milano</label>
+                    <label><input type="radio" name="q1" value="c"> Napoli</label>
+                    <label><input type="radio" name="q1" value="d"> Firenze</label>
+                </div>
+            </div>
+            <div class="domande">
+                <p>2. Quale è l'organo più grande del corpo umano?</p>
+                <div class="opzioni">
+                    <label><input type="radio" name="q2" value="a"> Cuore</label>
+                    <label><input type="radio" name="q2" value="b"> Polmone</label>
+                    <label><input type="radio" name="q2" value="c"> Fegato</label>
+                    <label><input type="radio" name="q2" value="d"> Pelle</label>
+                </div>
+            </div>
+            <div class="domande">
+                <p>3. Chi ha scritto "La Divina Commedia"?</p>
+                <div class="opzioni">
+                    <label><input type="radio" name="q3" value="a"> Dante Alighieri</label>
+                    <label><input type="radio" name="q3" value="b"> Giovanni Boccaccio</label>
+                    <label><input type="radio" name="q3" value="c"> Francesco Petrarca</label>
+                    <label><input type="radio" name="q3" value="d"> Ludovico Ariosto</label>
+                </div>
+            </div>
+            <div class="domande">
+                <p>4. Chi è la squadra di calcio più forte d'Italia?</p>
+                <div class="opzioni">
+                    <label><input type="radio" name="q4" value="a"> Inter</label>
+                    <label><input type="radio" name="q4" value="b"> Milan</label>
+                    <label><input type="radio" name="q4" value="c"> Juventus</label>
+                    <label><input type="radio" name="q4" value="d"> Bologna</label>
+                </div>
+            </div>
+            <div class="domande">
+                <p>5. Chi ha inventato la luce?</p>
+                <div class="opzioni">
+                    <label><input type="radio" name="q5" value="a"> Nikola Tesla</label>
+                    <label><input type="radio" name="q5" value="b"> Albert Einstein</label>
+                    <label><input type="radio" name="q5" value="c"> Thomas Edison</label>
+                    <label><input type="radio" name="q5" value="d"> Leonardo da Vinci</label>
+                </div>
+            </div>
+            <div class="domande">
+                <p>6. Chi è Leonardo Da Vinci?</p>
+                <div class="opzioni">
+                    <label><input type="radio" name="q6" value="a"> Scrittore e Inventore</label>
+                    <label><input type="radio" name="q6" value="b"> Scienziato</label>
+                    <label><input type="radio" name="q6" value="c"> Pittore</label>
+                    <label><input type="radio" name="q6" value="d"> Banchiere</label>
+                </div>
+            </div>
+            <div class="domande">
+                <p>7. Chi è l'attore che ha interpretato il miglio Jocker?</p>
+                <div class="opzioni">
+                    <label><input type="radio" name="q7" value="a"> Jared Leto</label>
+                    <label><input type="radio" name="q7" value="b"> Jack Nicholson</label>
+                    <label><input type="radio" name="q7" value="c"> Joaquin Phoenix</label>
+                    <label><input type="radio" name="q7" value="d"> Heath Ledger</label>
+                </div>
+            </div>
+            <!-- <div class="domande">
+                <p>8. Quanti mesi hanno 30gg?</p>
+                <div class="opzioni">
+                    <label><input type="radio" name="q8" value="a"> 6</label>
+                    <label><input type="radio" name="q8" value="b"> 8</label>
+                    <label><input type="radio" name="q8" value="c"> 12</label>
+                    <label><input type="radio" name="q8" value="d"> 11</label>
+                </div>
+            </div>
+            <div class="domande">
+                <p>9. Quanti lunedì ci sono in un mese?</p>
+                <div class="opzioni">
+                    <label><input type="radio" name="q9" value="a"> 6</label>
+                    <label><input type="radio" name="q9" value="b"> 30</label>
+                    <label><input type="radio" name="q9" value="c"> 8</label>
+                    <label><input type="radio" name="q9" value="d"> 4</label>
+                </div>
+            </div>
+           
+            <div class="domande">
+                <p>10. Quanti lunedì ci sono in un mese?</p>
+                <div class="opzioni">
+                    <label><input type="radio" name="q10" value="a"> 6</label>
+                    <label><input type="radio" name="q10" value="b"> 4</label>
+                    <label><input type="radio" name="q10" value="c"> 8</label>
+                    <label><input type="radio" name="q10" value="d"> 30</label>
+                </div>
+            </div> -->
+
+            <input type="submit" value="Invia Risposte">
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+-------
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risultato del Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        .risultato {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Risultato del Quiz</h2>
+        <?php
+        // Array delle risposte corrette
+        $risposte_corrette = array(
+            "q1" => "a",
+            "q2" => "d",
+            "q3" => "a",
+            "q4" => "a",
+            "q5" => "c",
+            "q6" => "a",
+            "q7" => "d",
+           /*  "q8" => "d",
+            "q9" => "d",
+           "q10" => "b", */
+        );
+
+        // Inizializza punteggio
+        $punteggio = 0;
+
+        // Controlla le risposte inviate
+        foreach ($risposte_corrette as $domanda => $risposta_corretta) {
+            if (isset($_POST[$domanda]) && $_POST[$domanda] === $risposta_corretta) {
+                $punteggio++;
+                echo "<div class='risultato'>Domanda " . substr($domanda, 1) . ": Risposta corretta</div>";
+            } else {
+                echo "<div class='risultato'>Domanda " . substr($domanda, 1) . ": Risposta sbagliata</div>";
+            }
+        }
+
+        // Mostra il punteggio finale
+        echo "<h3>Punteggio finale: $punteggio su " . count($risposte_corrette) . "</h3>";
+        ?>
+    </div>
+</body>
+</html>
