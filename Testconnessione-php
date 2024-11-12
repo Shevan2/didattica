@@ -1,0 +1,46 @@
+<?php
+
+$servername = "localhost";
+$username = "anfra";  
+$password = "";
+$database = "my_anfra";
+
+// Connessione al database
+$connetti = mysqli_connect($servername, $username, $password, $database);
+
+// Verifica connessione
+if (!$connetti) {
+    die("Connessione fallita: " . mysqli_connect_error());
+}
+
+
+/*$sql = "CREATE DATABASE my_anfra";
+if (mysqli_query($connetti, $sql)) {
+    echo "Database creato con successo!";
+} else {
+    echo "Errore nella creazione del database: " . mysqli_error($connetti);
+}
+*/
+
+mysqli_select_db($connetti, $database);
+
+// Creazione della tabella 'team'
+$sqlarchivio = "CREATE TABLE team (
+    ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    teamA VARCHAR(30) NOT NULL,
+    teamB VARCHAR(30) NOT NULL,
+    teamC VARCHAR(30) NOT NULL,
+    teamD VARCHAR(30) NOT NULL,
+    teamE VARCHAR(30) NOT NULL
+)";
+
+if (mysqli_query($connetti, $sqlarchivio)) {
+    echo "Tabella 'team' creata con successo!";
+} else {
+    echo "Errore nella creazione della tabella: " . mysqli_error($connetti);
+}
+
+
+mysqli_close($connetti);
+
+?>
