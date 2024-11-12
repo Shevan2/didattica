@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px; /* Maggiore larghezza per accogliere più campi affiancati */
+            margin: 0 auto;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .form-group {
+            flex: 1; /* Occupa lo spazio disponibile */
+            min-width: calc(50% - 20px); /* Mantiene i campi almeno al 50% */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        /* Stile per schermi più piccoli */
+        @media (max-width: 768px) {
+            .form-group {
+                min-width: 100%; /* Su schermi piccoli, i campi si allineano in colonna */
+            }
+
+            .form-row {
+                gap: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            form {
+                padding: 10px;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 8px;
+            }
+
+            input {
+                font-size: 14px;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h2>Modulo per richiesta Informazioni</h2>
+<form method="POST" action="info.php">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo nome" required>
+        </div>
+        <div class="form-group">
+            <label for="cognome">Cognome</label>
+            <input type="text" id="cognome" name="cognome" placeholder="Inserisci il tuo cognome" required>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="form-row">
+        <div class="form-group">
+            <label for="società">Nome della Società (opzionale)</label>
+            <input type="text" id="società" name="società" placeholder="Inserisci nome della Società">
+        </div>   
+        <div class="form-group">
+            <label for="paese">Paese/Regione</label>
+            <input type="text" id="paese" name="paese" placeholder="Inserisci paese">
+        </div>    
+    </div>
+    
+    <br><br>
+    <div class="form-row">
+        <div class="form-group">
+            <label for="viaenumero">Via e Numero</label>
+            <input type="text" id="viaenumero" name="viaenumero" placeholder="Via/Piazza e Numero Civico" required>
+        </div>      
+        <div class="form-group">
+            <input type="text" id="luogo" name="luogo" placeholder="Appartamento, Casa Indipendente ecc. (opzionale)">
+        </div>
+    </div>
+    
+    <br><br>
+    <div class="form-row">
+        <div class="form-group">
+            <label for="città">Città</label>
+            <input type="text" id="città" name="città" placeholder="Inserisci la tua Città" required>
+        </div>
+        <div class="form-group">
+            <label for="provincia">Provincia</label>
+            <input type="text" id="provincia" name="provincia" placeholder="Inserisci la tua Provincia" required>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="form-row">
+        <div class="form-group">
+            <label for="CAP">C.A.P.</label>
+            <input type="text" id="CAP" name="CAP" placeholder="Inserisci il C.A.P." required>
+        </div>
+        <div class="form-group">
+            <label for="telefono">Telefono</label>
+            <input type="number" id="telefono" name="telefono" placeholder="Inserisci il Telefono" required>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Inserisci la tua Email" required>
+    </div>
+
+    <br><br>
+    <input type="checkbox" id="account" name="account">
+    <label for="account">Creare un account?</label>
+
+    <br><br>
+    <input type="checkbox" id="indirizzo" name="indirizzo">
+    <label for="indirizzo">Spedire ad un indirizzo differente</label>
+
+    <br><br>
+    <label for="note">Note sull'ordine (opzionale)</label>
+    <input type="text" id="note" name="note">
+
+    <br><br>
+    <button type="submit">Invia</button>
+</form>
+
+</body>
+</html>
+
+
+
+
+
+----------- PHP ------------------------
+
+
+
+
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nome = htmlspecialchars($_POST['nome']);
+    $cognome = htmlspecialchars($_POST['cognome']);
+    $società = htmlspecialchars($_POST['società']);
+    $paese = htmlspecialchars($_POST['paese']);
+    $viaenumero = htmlspecialchars($_POST['viaenumero']);
+    $luogo = htmlspecialchars($_POST['luogo']);
+    $città = htmlspecialchars($_POST['città']);
+    $provincia = htmlspecialchars($_POST['provincia']);
+    $CAP = htmlspecialchars($_POST['CAP']);
+    $telefono = htmlspecialchars($_POST['telefono']);
+    $email = htmlspecialchars($_POST['email']);
+    $account = isset($_POST['account']) ? 'Si' : 'No';
+    $indirizzo = isset($_POST['indirizzo']) ? 'Si' : 'No';
+    $note = htmlspecialchars($_POST['note']);
+
+
+    echo "<h1>Modulo per richiesta iInformazioni</h1>";
+    echo "Nome: $nome<br>";
+    echo "Cognome: $cognome<br>";
+    echo "Nome della Società (opzionale) $società<br>";
+    echo "Paese/Regione $paese<br>";
+    echo "Via e Numero $viaenumero<br>";
+    echo "Luogo (opzionale): $luogo<br>";
+    echo "Città $città<br>";
+    echo "Provincia $provincia<br>";
+    echo "C.A.P. $CAP<br>";
+    echo "Telefono $telefono<br>";
+    echo "Email $email<br>";
+    echo "Creare un account? $account<br>";
+    echo "Spedire ad un indirizzo differente $indirizzo<br>";
+    echo "Note sull'ordine (opzionale) $note<br>";
+} else {
+    echo "Dati inseriti Errati";
+}
+
+
+?>
