@@ -1,0 +1,105 @@
+----------HTML-------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style01.css">
+    <title>Galleria 3D</title>
+</head>
+<body>
+    <div class="box">
+      
+        <span style="--i:1"><img src="https://i.ibb.co/gdFsF0K/Miles-Poster.jpg" alt="Spider-Man"></span>
+        <span style="--i:2"><img src="https://i.ibb.co/PNTSxCv/mune.jpg" alt="mune"></span>
+        <span style="--i:3"><img src="https://i.ibb.co/zX4N96D/Glacial.jpg" alt="L'era Glaciale"></span>
+        <span style="--i:4"><img src="https://i.ibb.co/hB0ZjWL/Cattivissimo-Me.jpg" alt="Cattivissimo ME"></span>
+        <span style="--i:5"><img src="https://i.ibb.co/gdFsF0K/Miles-Poster.jpg" alt="Spider-Man"></span>
+        <span style="--i:6"><img src="https://i.ibb.co/mq3DThL/panda.jpg" alt="Kung fu panda"></span>
+        <span style="--i:7"><img src="https://i.ibb.co/6bsXfGf/KLAUS.jpg" alt="Klaus"></span>
+        <span style="--i:8"><img src="https://i.ibb.co/z4N43ZV/HT-locandina-min.jpg" alt="Hotel Transilvania"></span>
+        <span style="--i:9"><img src="https://i.ibb.co/2dY7rds/57.jpg" alt="Inside Out"></span>
+        <span style="--i:10"><img src="https://i.ibb.co/RY1LQS0/Dragon-Trainer.webp" alt="Dragon Trainer"></span>
+    </div>
+</body>
+</html>
+
+
+
+
+------------- CSS -------------------------------
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #151F28;
+}
+
+.box:hover{
+    animation-play-state: paused;
+    
+}
+.box {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: animate 30s linear infinite;
+}
+
+@media screen { 
+    
+}
+@keyframes animate {
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+.box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(240px);
+}
+
+.box span::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
+}
+
+.box span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box span:hover img {
+    filter: brightness(1.2);  /* Aumenta la luminosità */   /*Trovare una giusta luminosità*/
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);  /* Aggiunge un'ombra luminosa */
+    transform: scale(1.05);  /* Aumenta leggermente la dimensione dell'immagine */
+}
+
