@@ -1,0 +1,1439 @@
+-------------------------------- HTML --------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nosferatu - Trailer, descrizione e informazioni sul remake del classico film horror.">
+    <title>Nosferatu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome per le icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="NosferatuJS.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="menu-logo">
+            <h1>Nosferatu</h1><br>
+            <p class="sottotitolo">Un classico che vive per sempre nell'oscurità.</p><br><br>
+            <div class="separator"></div>
+        </div>
+ <!-- Barra di Ricerca con collegamento a google-->
+<div class="search-bar">
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+        <input type="text" name="q" placeholder="Ricerca nell'oscurità..." aria-label="Barra di ricerca">
+        <button type="submit">Cerca</button>
+    </form>
+</div>
+<!-- Fine Barra di Ricerca-->
+    </header>
+    <!--Inizio menù principale-->
+    <nav class="main-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://www.comingsoon.it/cinema/news/nosferatu-la-scena-piu-disgustosa-e-toccata-a-emma-corrin-avevo-addosso/n191920/" target="_blank">News</a></li>
+            <li><a href="https://www.imdb.com/it/title/tt0013442/" target="_blank">Remake</a></li>
+            <li><a href="https://www.wired.it/article/nosferatu-robert-eggers-recensione/" target="_blank">Recensioni</a></li>
+            <li><a href="https://www.imdb.com/it/title/tt5040012/" target="_blank">Altro</a></li>
+            <li><a href="#">Contatti</a></li>
+            <li><a href="https://www.ilregnodelcinema.com/multisalaoz/" target="_blank">Prenota</a></li>
+        </ul>
+    </nav>
+    <!--Fine menù principale-->
+    <main>
+        <!-- Indice laterale inizio-->
+        <aside class="indice">
+            <h2>Indice</h2>
+            <ul>
+                <li><a href="#trailer">Trailer</a></li>
+                <li><a href="#trama">Trama</a></li>
+                <li><a href="#galleria">Galleria</a></li>
+                <li><a href="#cast">Cast</a></li>
+                <li><a href="#regista">Regista</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+        </aside>
+        <!-- Indice laterale fine-->
+      <!-- Inizio sezione con Frase principale -->
+      <p class="intro-frase">
+        Il tempo è un abisso profondo con lunghe infinite notti, i secoli vengono e vanno... 
+        Non avere la capacità di invecchiare è terribile. La morte non è il peggio: ci sono cose 
+        molto più orribili della morte.
+    </p><br>
+      <!-- Fine sezione con Frase principale -->
+         <!--Parte Trailer inizio-->
+        <section id="trailer" class="video-container">
+          
+            <div class="iframe-wrapper">
+                <iframe src="https://www.youtube.com/embed/MxienE23Bi0"
+                        title="Trailer di Nosferatu"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <!-- Altri contenuti della tua pagina -->
+        <section id="altre-informazioni">
+    <div class="video-side-content">
+        <h3 class="highlight">Altre Informazioni</h3>
+        <ul class="info-list">
+            <li>
+                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                <strong>Uscita:</strong> 1 Gennaio 2024
+            </li>
+            <li>
+                <i class="fas fa-clock" aria-hidden="true"></i>
+                <strong>Durata:</strong> 134 minuti
+            </li>
+            <li>
+                <i class="fas fa-tags" aria-hidden="true"></i>
+                <strong>Genere:</strong> Horror
+            </li>
+            <li>
+                
+                <li>
+    <i class="fas fa-book-open" aria-hidden="true"></i>
+    <strong>Soggetto:</strong>
+    <span class="soggetto-text">
+                    Nosferatu il vampiro di Friedrich Wilhelm Murnau<br>
+                    liberamente ispirato al Dracula di Bram Stoker
+                </span>
+</li>
+            </li>
+            <li>
+                <i class="fas fa-pencil-alt" aria-hidden="true"></i>
+                <strong>Sceneggiatura:</strong>  Robert Eggers
+            </li>
+        </ul>
+    </div>
+</section>
+        </section>
+        <section id="trama" class="descrizione">
+            <h2 class="highlight">Trama</h2>
+            <img src="https://i.ibb.co/9qgT81x/nosteratu-lily-rose-depp.webp" alt="Scena di Nosferatu" loading="lazy" width="400" height="225">
+            <p>
+                La trama di Nosferatu è ambientata in Germania nel 1838 e segue la storia di Thomas Hutter e sua moglie Ellen, 
+                una coppia che vive felicemente nella città di Wisborg. Hutter lavora per Knock, un agente immobiliare che lo manda 
+                sulle montagne della Transilvania, nei Carpazi, per finalizzare la vendita di una tenuta con il Conte Orlok. 
+                Dopo un complicato e sinistro viaggio pieno di esperienze agghiaccianti per chiudere il lucroso affare, Hutter, 
+                dopo essere stato ricevuto dal premuroso e ospitale Orlok, scopre il segno delle zanne sul suo collo e capirà presto 
+                che il Conte è in realtà un vampiro.
+            </p>
+        </section>
+        <!--Parte Trailer fine-->
+        <section id="galleria" class="carousel-container">
+            <h2 class="highlight">Galleria</h2>
+            <div class="carousel">
+                <button class="carousel-btn prev" onclick="prevSlide()" aria-label="Slide precedente">❮</button>
+                <div class="carousel-images">
+                    <img src="https://i.ibb.co/gtt1rNB/nosfer.jpg" alt="Nosferatu 1" class="active" loading="lazy" width="800" height="400">
+                    <img src="https://i.ibb.co/FV89WVb/nosferatu-NOSFERATU-FP-00130-R-rgb.webp" alt="Nosferatu 2" loading="lazy" width="800" height="400">
+                    <img src="https://i.ibb.co/sFSS3CV/NOSTERATU-FP-00628-R.webp" alt="Nosferatu 3" loading="lazy" width="800" height="400">
+                    <img src="https://i.ibb.co/mc2KbLc/image-513.webp" alt="Nosferatu 4" loading="lazy" width="800" height="400">
+                    <img src="https://i.ibb.co/FYPw80q/nosferatu2.png" alt="Nosferatu 5" loading="lazy" width="800" height="400">
+                    <img src="https://i.ibb.co/9h535dJ/nosfe1.jpg" alt="Nosferatu 6" loading="lazy" width="800" height="400">
+                    
+                </div>
+                <button class="carousel-btn next" onclick="nextSlide()" aria-label="Slide successiva">❯</button>
+            </div>
+        </section>
+        <section id="cast">
+            <h2 class="highlight">Cast</h2>
+            <div class="card-container">
+                <!-- Card 1: Bill Skarsgård -->
+                <div class="flip-card" tabindex="0" role="button" aria-label="Flip Card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wGQidITqyDl4Igmq9TCQjRpegsk.jpg" alt="Bill Skarsgård">
+                            <p>Bill Skarsgård</p>
+                            <span class="badge">Protagonista</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="cardname">Bill Skarsgård</h1><br>
+                          <h3><u>Ruolo</u></h3>
+                            <p> Conte Orlok / Nosferatu</p>
+                            <h3><u>Altri Dettagli</u></h3>
+                            <p>è un misterioso nobile della Transilvania, un vampiro che si nutre del sangue degli umani viventi. Vive da solo in un enorme castello nascosto tra le aspre vette dei Carpazi.</p>
+                            <div class="card-actions">
+                                <a href="https://www.imdb.com/it/name/nm0803889/?ref_=nv_sr_srsg_0_tt_0_nm_6_in_0_q_Bill%2520Skarsg%25C3%25A5rd" target="_blank" aria-label="Vedi IMDb">
+                                    <i class="fab fa-imdb"></i>
+                                </a>
+                                <a href="https://x.com/billskarsgard_" target="_blank" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2: Willem Dafoe -->
+                <div class="flip-card" tabindex="0" role="button" aria-label="Flip Card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg" alt="Willem Dafoe">
+                            <p>Willem Dafoe</p>
+                            <span class="badge">Professore</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="cardname">Willem Dafoe</h1><br>
+                            <h3><u>Ruolo</u></h3>
+                            <p>professor Albin Eberhart Von Franz</p>
+                            <h3><u>Altri Dettagli</u></h3>
+                            <p>un personaggio reinventato partendo dal materiale originale che mira a diventare uno dei cacciatori di vampiri.</p>
+                            <div class="card-actions">
+                                <a href="https://www.imdb.com/it/name/nm0000353/?ref_=nv_sr_srsg_0_tt_1_nm_7_in_0_q_wille" target="_blank" aria-label="Vedi IMDb">
+                                    <i class="fab fa-imdb"></i>
+                                </a>
+                                <a href="https://x.com/willemdafoe55" target="_blank" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3: Nicholas Hoult -->
+                <div class="flip-card" tabindex="0" role="button" aria-label="Flip Card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/laeAYQVBV9U3DkJ1B4Cn1XhpT8P.jpg" alt="Nicholas Hoult">
+                            <p>Nicholas Hoult</p>
+                            <span class="badge">Protagonista</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="cardname">Nicholas Hoult</h1><br>
+                            <h3><u>Ruolo</u></h3>
+                            <p>Thomas Hutter</p>
+                            <h3><u>Altri Dettagli</u></h3>
+                            <p>un giovane che lavora come agente immobiliare e vive nella città tedesca di Wisborg con sua moglie Ellen.</p>
+                            <div class="card-actions">
+                                <a href="https://www.imdb.com/it/name/nm0396558/?ref_=nv_sr_srsg_2_tt_0_nm_6_in_0_q_nicholas" target="_blank" aria-label="Vedi IMDb">
+                                    <i class="fab fa-imdb"></i>
+                                </a>
+                                <a href="https://x.com/nicholashoult" target="_blank" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4: Lily-Rose Depp -->
+                <div class="flip-card" tabindex="0" role="button" aria-label="Flip Card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/kWSRS0M5uv0KlFJUvH6Rqm2g70B.jpg" alt="Lily-Rose Depp">
+                            <p>Lily-Rose Depp</p>
+                            <span class="badge">Supporto</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="cardname">Lily-Rose Depp</h1><br>
+                            <h3><u>Ruolo</u></h3>
+                            <p>Ellen Hutter</p>
+                            <h3><u>Altri Dettagli</u></h3>
+                            <p>moglie di Thomas, descritta come una donna pura e una moglie angelica.</p>
+                            <div class="card-actions">
+                                <a href="https://www.imdb.com/it/name/nm6675440/?ref_=nv_sr_srsg_0_tt_1_nm_7_in_0_q_lily" target="_blank" aria-label="Vedi IMDb">
+                                    <i class="fab fa-imdb"></i>
+                                </a>
+                                <a href="https://x.com/lilyrosemeldepp" target="_blank" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5: Simon McBurney -->
+                <div class="flip-card" tabindex="0" role="button" aria-label="Flip Card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wwN02i4RBoPHDdOKXBV5AhFALdT.jpg" alt="Simon McBurney">
+                            <p>Simon McBurney</p>
+                            <span class="badge">Supporto</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="cardname">Simon McBurney</h1><br>
+                            <h3><u>Ruolo</u></h3>
+                            <p>Knock</p>
+                            <h3><u>Altri Dettagli</u></h3>
+                            <p>Pochi notizie al riguardo.</p>
+                            <div class="card-actions">
+                                <a href="https://www.imdb.com/it/name/nm0564402/?ref_=nv_sr_srsg_0_tt_0_nm_8_in_0_q_simon%2520mc" target="_blank" aria-label="Vedi IMDb">
+                                    <i class="fab fa-imdb"></i>
+                                </a>
+                                <a href="https://x.com/SimonMcBurney/status/1805531849109762319" target="_blank" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 6: Aaron Taylor-Johnson -->
+                <div class="flip-card" tabindex="0" role="button" aria-label="Flip Card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/ldIRyeraVFHwprWhe8BK441UJYn.jpg" alt="Aaron Taylor-Johnson">
+                            <p>Aaron Taylor-Johnson</p>
+                            <span class="badge">Supporto</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="cardname">Aaron Taylor-Johnson</h1><br>
+                            <h3><u>Ruolo</u></h3>
+                            <p>Friedrich Harding</p>
+                            <h3><u>Altri Dettagli</u></h3>
+                            <p>che potrebbe essere una rivisitazione di un personaggio presente nel film originale.</p>
+                            <div class="card-actions">
+                                <a href="https://www.imdb.com/it/name/nm1093951/?ref_=nv_sr_srsg_1_tt_0_nm_7_in_0_q_aaro" target="_blank" aria-label="Vedi IMDb">
+                                    <i class="fab fa-imdb"></i>
+                                </a>
+                                <a href="https://x.com/dailyaarontj" target="_blank" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 7: Emma Corrin -->
+                <div class="flip-card" tabindex="0" role="button" aria-label="Flip Card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wqGOVOsHzZaHeHymIS40elGCnY0.jpg" alt="Emma Corrin">
+                            <p>Emma Corrin</p>
+                            <span class="badge">Supporto</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="cardname">Emma Corrin</h1><br>
+                            <h3><u>Ruolo</u></h3>
+                            <p>Anna Harding</p>
+                            <h3><u>Altri Dettagli</u></h3>
+                            <p>la confidente e la migliore amica di Ellen.</p>
+                            <div class="card-actions">
+                                <a href="https://www.imdb.com/it/name/nm10128408/?ref_=nv_sr_srsg_1_tt_1_nm_6_in_0_q_emma%2520co" target="_blank" aria-label="Vedi IMDb">
+                                    <i class="fab fa-imdb"></i>
+                                </a>
+                                <a href="https://x.com/corrinupdates?lang=it" target="_blank" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 8: Ralph Ineson -->
+                <div class="flip-card" tabindex="0" role="button" aria-label="Flip Card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/sn3ONJw2pJxMHiCqPwvkaiWr5mc.jpg" alt="Ralph Ineson">
+                            <p>Ralph Ineson</p>
+                            <span class="badge">Supporto</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="cardname">Ralph Ineson</h1><br>
+                            <h3><u>Ruolo</u></h3>
+                            <p>Dottor Wilhelm Sievers</p>
+                          <h3><u>Altri Dettagli</u></h3>
+                            <p>Il dottor Wilhelm Sievers è il direttore di un ospedale nella città di Wisborg ed è amico di Friedrich Harding.</p>
+                            <div class="card-actions">
+                                <a href="https://www.imdb.com/it/name/nm0408591/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_ralph%2520in" target="_blank" aria-label="Vedi IMDb">
+                                    <i class="fab fa-imdb"></i>
+                                </a>
+                                <a href="https://x.com/ralphineson" target="_blank" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fine delle card -->
+            </div>
+        </section>
+  <!--Inizio sezione Regista-->
+  <section id="regista" class="descrizione">
+    <h2 class="highlight">Regista</h2>
+    <div class="regista-card">
+        <!-- Card Principale -->
+        <img src="https://i.ibb.co/v4mRJC2/robert-eggers.jpg" alt="Robert Eggers, regista di Nosferatu" loading="lazy" width="400" height="225">
+        <div class="regista-info">
+            <h3>Robert Eggers</h3>
+            <p><strong>Data di nascita:</strong> 7 luglio 1983, New York</p>
+            <p>Robert Eggers è un regista, sceneggiatore, produttore cinematografico e scenografo statunitense. Raggiunse la notorietà nel 2015 con il suo esordio registico, il film horror <em>The Witch</em>, che ottenne un buon successo. In seguito ha diretto <em>The Lighthouse</em> (2019) e <em>The Northman</em> (2022), un film epico ispirato alla leggenda di Amleto.</p>
+            
+            <!-- Card Secondaria -->
+            <div class="regista-details-card">
+                <h4>Premi e Riconoscimenti</h4>
+                <ul>
+                    <li>Premio BAFTA per <em>The Witch</em></li>
+                    <li>Oscar Nominato per Miglior Regista per <em>The Lighthouse</em></li>
+                    <!-- Altri premi -->
+                </ul>
+            </div>
+            <div class="regista-links">
+                <a href="https://www.imdb.com/it/name/nm3211470/" target="_blank" aria-label="Vedi IMDb di Robert Eggers"><i class="fab fa-imdb"></i> IMDb</a>
+                <a href="https://x.com/eggersfilms" target="_blank" aria-label="Twitter di Robert Eggers"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.instagram.com/roberteggers_/" target="_blank" aria-label="Instagram di Robert Eggers"><i class="fab fa-instagram"></i> Instagram</a>
+                <!-- Aggiungi altri link social se disponibili -->
+            </div>
+        </div>
+    </div>
+</section>
+<!--Fine sezione Regista-->
+<!-- Divisore tra Regista e Location -->
+<div class="section-divider-icon">
+    <i class="fas fa-bat"></i>
+</div>
+<!--Inizio sezione Location-->
+    <section id="location" class="location-section">
+    <h2 class="highlight">Location</h2>
+    <div class="location-grid">
+        <div class="location-grid">
+    <div class="location-item">
+        <a href="https://www.mybestplace.com/it/article/hoia-baciu-la-foresta-dei-misteri-in-transilvania" target="_blank" aria-label="Foresta della Transilvania">
+            <img src="https://i.ibb.co/gyZDBkt/Hoia.webp" alt="Foresta della Transilvania" loading="lazy">
+        </a>
+        <h3>Foresta della Transilvania</h3>
+        <p>
+            Le antiche foreste della Transilvania hanno fornito l'ambiente perfetto per creare l'atmosfera cupa e inquietante di Nosferatu.
+        </p>
+    </div>
+        <div class="location-item">
+            <a href="https://bran-castle.com/" target="_blank" aria-label="Castello di Nosferatu">
+            <img src="https://i.ibb.co/vzDtTzq/castello-di-dracula.webp" alt="Castello di Nosferatu" loading="lazy">
+            </a>
+            <h3>Castello di Nosferatu</h3>
+            <p>
+                Il maestoso castello utilizzato nel film incarna la dimora del Conte Orlok, simbolo di potere e mistero.
+            </p>
+        </div>
+        <div class="location-item">
+            <a href="https://4filming.com/nosferatu-filming-locations-2024/#Barrandov_Studios_Prague_Czech_Republic" target="_blank" aria-label="Ville Storiche di Wisborg">
+            <img src="https://i.ibb.co/7K4mtdq/Nosferatu-Filming-Locations-1024x576.webp" alt="Ville Storiche di Wisborg" loading="lazy">
+            </a>
+            <h3>Ville Storiche di Wisborg</h3>
+            <p>
+                Le eleganti ville di Wisborg rappresentano la facciata raffinata della città, contrastando con le ombre del castello.
+            </p>
+        </div>
+      </div>
+    </section>
+<!--Fine sezione Location-->
+        
+
+        
+    </main>
+    <!-- Inizio Footer-->
+    <footer>
+        <p>&copy; 2024 Nosferatu Updates. Tutti i diritti riservati.</p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <!-- Aggiungi altri link social -->
+        </div>
+    </footer>
+     <!-- Fine Footer-->
+    <button onclick="toggleTheme()" class="theme-button">Cambia tema</button>
+
+    <!-- JavaScript per il carosello e il tema -->
+    <script>
+    // Carousel Functionality
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.carousel-images img');
+    const totalSlides = slides.length;
+
+    function updateCarousel() {
+        slides.forEach((slide, index) => {
+            slide.classList.toggle('active', index === currentSlide);
+        });
+    }
+
+    function prevSlide() {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        updateCarousel();
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateCarousel();
+    }
+
+    // Theme Toggle Functionality
+    function toggleTheme() {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+            localStorage.setItem("theme", "dark");
+        } else {
+            localStorage.setItem("theme", "light");
+        }
+    }
+
+    // Initialize Carousel and Theme on DOM Content Loaded
+    document.addEventListener('DOMContentLoaded', () => {
+        updateCarousel();
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") {
+            document.body.classList.add("dark-theme");
+        }
+    });
+    </script>
+</body>
+</html>
+
+
+
+
+------------------------------   CSS ------------------------------------------------------
+
+
+/* -------------------------------------------
+   1. Definizione delle Variabili CSS
+-------------------------------------------- */
+:root {
+    --background-color: #121212;
+    --text-color: #fff;
+    --highlight-color: #ff0000;
+    --accent-color: #f0a500;
+    --header-bg: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+    --breakpoint-desktop: 1200px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-mobile: 480px;
+}
+
+/* -------------------------------------------
+   2. Reset e Stili Generali
+-------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+
+/* Tema Chiaro */
+body.dark-theme {
+    --background-color: #f5f5f5;
+    --text-color: #333;
+    /* Altri cambiamenti per il tema chiaro */
+}
+
+/* -------------------------------------------
+   3. Header
+-------------------------------------------- */
+header {
+    background-image: var(--header-bg),
+                      url("https://i.ibb.co/0MdhMDx/Cielotemest.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    text-align: center;
+    padding: 40px 0;
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Scritta Nosferatu */
+.menu-logo h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    background: url("https://i.ibb.co/9qgT81x/nosteratu-lily-rose-depp.webp") center/cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9), 0 0 15px rgba(255, 0, 0, 0.7);
+}
+
+/* -------------------------------------------
+   4. Barra di Navigazione
+-------------------------------------------- */
+.main-menu {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(to right, rgba(25, 25, 25, 0.95), rgba(45, 45, 45, 0.95));
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.main-menu ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    gap: 25px;
+}
+
+.main-menu a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.main-menu a:hover {
+    color: var(--accent-color);
+}
+
+/* -------------------------------------------
+   5. Sottotitolo
+-------------------------------------------- */
+.sottotitolo {
+    font-family: 'Montserrat', sans-serif; /* Font complementare */
+    font-size: 1.5rem; /* Dimensione più piccola rispetto al titolo */
+    font-weight: 300; /* Peso più leggero */
+    color: #ffffff; /* Colore del testo */
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 10px rgba(255, 0, 0, 0.5);
+    background: linear-gradient(90deg, #FF6B6B, #f0e130); /* Gradiente simile al titolo */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.sottotitolo:hover {
+    transform: scale(1.05); /* Leggero ingrandimento */
+    /* Opzionalmente, cambia il gradiente o altri effetti */
+}
+
+/* -------------------------------------------
+   6. Indice Laterale
+-------------------------------------------- */
+aside.indice {
+    position: sticky;
+    top: 60px;
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-left: 4px solid var(--accent-color);
+    border-radius: 5px 0 0 5px;
+    color: #ccc;
+    width: 180px;
+    height: fit-content;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    z-index: 998;
+}
+
+aside.indice h2 {
+    font-size: 1.1rem;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+aside.indice ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside.indice a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+aside.indice a:hover {
+    color: var(--accent-color);
+}
+
+/* -------------------------------------------
+   7. Barra di Ricerca
+-------------------------------------------- */
+.search-bar {
+    display: flex; /* Utilizza Flexbox per disporre gli elementi all'interno */
+    justify-content: center; /* Centra orizzontalmente la barra di ricerca */
+    margin: 20px auto; /* Aggiunge uno spazio di 20px sopra e sotto e centra la barra */
+    width: 410px; /* Imposta la larghezza della barra di ricerca a 410px */
+    height: 46px; /* Imposta l'altezza della barra di ricerca a 46px */
+    border-radius: 23px; /* Arrotonda completamente i bordi della barra di ricerca */
+    overflow: hidden; /* Nasconde eventuali overflow per mantenere l'arrotondamento */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera per dare profondità */
+    background-color: #ffffff; /* Imposta uno sfondo bianco (puoi cambiarlo in base al tema) */
+}
+
+/* Stile del modulo all'interno della barra di ricerca */
+.search-bar form {
+    display: flex; /* Utilizza Flexbox per disporre l'input e il pulsante in linea */
+    width: 100%; /* Imposta la larghezza del modulo al 100% del contenitore .search-bar */
+    height: 100%; /* Imposta l'altezza del modulo al 100% del contenitore .search-bar */
+}
+
+/* Stile dell'input di testo nella barra di ricerca */
+.search-bar input[type="text"] {
+    flex: 1; /* L'input occupa tutto lo spazio disponibile all'interno del modulo */
+    padding: 10px 15px; /* Aggiunge padding interno di 10px sopra e sotto, 15px ai lati */
+    font-size: 1rem; /* Imposta la dimensione del font a 1rem */
+    border: none; /* Rimuove i bordi predefiniti */
+    height: 100%; /* Imposta l'altezza dell'input al 100% del modulo */
+    outline: none; /* Rimuove l'outline predefinito quando l'input è focalizzato */
+}
+
+/* Stile del pulsante nella barra di ricerca */
+.search-bar button {
+    width: 75px; /* Imposta la larghezza del pulsante a 75px */
+    border: none; /* Rimuove i bordi predefiniti */
+    background-color: #ff0000b9; 
+    color: #fff; /* Colore del testo del pulsante bianco */
+    font-size: 1rem; /* Imposta la dimensione del font a 1rem */
+    cursor: pointer; /* Cambia il cursore in una mano quando si passa sopra il pulsante */
+    transition: background-color 0.3s ease; /* Aggiunge una transizione fluida al colore di sfondo */
+    height: 100%; /* Imposta l'altezza del pulsante al 100% del modulo */
+    display: flex; /* Dispone il contenuto del pulsante con Flexbox */
+    align-items: center; /* Centra verticalmente il contenuto del pulsante */
+    justify-content: center; /* Centra orizzontalmente il contenuto del pulsante */
+    border-radius: 23px; /* Arrotonda completamente i bordi del pulsante */
+}
+
+.search-bar button:hover {
+    background-color: #e55a5a; /* Cambia il colore di sfondo a un rosso più scuro al passaggio del mouse */
+}
+
+/* -------------------------------------------
+   8. Sezione Trama Migliorata
+-------------------------------------------- */
+.descrizione {
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.descrizione h2.highlight {
+    text-align: center;
+    color: var(--highlight-color);
+    margin-bottom: 15px;
+}
+
+.descrizione p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.descrizione img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* -------------------------------------------
+   9. Trailer e Altre Informazioni + Frase Principale
+-------------------------------------------- */
+.intro-section {
+    text-align: center;
+    margin: 20px 0;
+}
+.intro-frase {
+    font-size: 2rem;
+    font-style: italic;
+    color: #ccc;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr ; /* La prima colonna 1 parte, la seconda 2 parti */
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1100px;
+    align-items: start;
+}
+
+.video-side-content {
+    flex: 2; /* Occupa meno spazio rispetto al video */
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente il contenuto */
+    line-height: 1.6;
+}
+
+.video-side-content .highlight {
+    font-size: 1.4rem;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+  margin-bottom: 10px; /* Riduci lo spazio tra righe */
+}
+
+.info-list > li {
+    display: flex; /* Flexbox per allineamento migliore */
+    align-items: center; /* Centra verticalmente */
+    margin-bottom: 10px; /* Riduci lo spazio tra righe */
+}
+
+.info-list > li i {
+    margin-right: 10px;
+    margin-top: 5px;
+    color: var(--accent-color);
+    min-width: 20px;
+    text-align: center;
+}
+
+.info-list > li strong {
+    flex-shrink: 0; /* Impedisce il restringimento */
+    margin-right: 5px; /* Riduci spazio tra label e valore */
+    width: auto; /* Elimina la larghezza fissa */
+    color: var(--accent-color);
+}
+
+/* Stili per il testo del soggetto */
+.soggetto-text {
+    display: block;
+    line-height: 1.5;
+   
+}
+
+
+.iframe-wrapper {
+    flex: 2; /* Maggiore spazio per il trailer */
+    position: relative;
+    padding-top: 56.25%; /* Mantieni il rapporto 16:9 */
+}
+
+.iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+}
+
+
+
+/* -------------------------------------------
+   10. Galleria e Carosello
+-------------------------------------------- */
+.carousel-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-images {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-images img {
+    display: none;
+    width: 100%;
+    max-width: 800px;
+    max-height: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+    margin: 0 auto;
+}
+
+.carousel-images img.active {
+    display: block;
+}
+
+.carousel-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--text-color);
+    border: none;
+    border-radius: 50%;
+    padding: 12px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-btn.prev {
+    left: 800px;
+}
+
+.carousel-btn.next {
+    right: 800px;
+}
+
+/* -------------------------------------------
+   11. Cast - Flip Card
+-------------------------------------------- */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    aspect-ratio: 3 / 4; /* Mantiene una proporzione 3:4 */
+    perspective: 1000px; /* Necessario per l'effetto 3D */
+    position: relative;
+    overflow: visible; /* Permette alla card di ruotare senza essere tagliata */
+    cursor: pointer; /* Indica interattività */
+    z-index: 1; /* Base z-index */
+}
+
+.flip-card:hover,
+.flip-card:focus-within {
+    z-index: 999; /* Porta la card in primo piano durante la rotazione */
+}
+
+.flip-card-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flip-card-front {
+    background-color: #1f1f1f;
+    color: var(--text-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flip-card:hover .flip-card-front img {
+    transform: scale(1.05); /* Leggera zoom sull'immagine al passaggio del mouse */
+}
+
+.flip-card-back {
+    background-color: #333;
+    color: #fff;
+    transform: rotateY(180deg);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-card-back h3 {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.flip-card-back p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.card-actions a {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.card-actions a:hover {
+    transform: scale(1.2);
+    color: var(--accent-color);
+}
+.cardname {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.0em;
+  font-weight: 700;
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin: 0 0 15px 0;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+               4px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.flip-card-back:hover .cardname {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
+/* -------------------------------------------
+   12. Sezione Regista
+-------------------------------------------- */
+.regista-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #3a3a3a; /* Colore di sfondo della card principale */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.regista-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.regista-card img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* Cambia il cursore per indicare interattività */
+}
+
+.regista-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.regista-info {
+    flex: 1;
+    min-width: 250px;
+    color: #ffffff; /* Colore del testo nella card principale */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spazio tra gli elementi */
+}
+
+.regista-info h3 {
+    font-size: 1.7rem;
+    color: var(--highlight-color);
+    margin-bottom: 10px;
+}
+
+.regista-info p {
+    font-size: 1rem;
+    color: #dddddd;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Card Secondaria */
+.regista-details-card {
+    background-color: #3a3a3a; /* Colore di sfondo della card secondaria */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 5px; /* Margine superiore ridotto */
+    transition: background-color 0.3s ease;
+}
+
+.regista-details-card h4 {
+    font-size: 1.2rem;
+    color: var(--highlight-color);
+    margin-bottom: 10px;
+    margin-top: 0; /* Rimuove il margine superiore */
+}
+
+.regista-details-card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #dddddd;
+}
+
+.regista-details-card ul li {
+    margin-bottom: 5px;
+}
+
+/* Stile dei Link Social */
+.regista-links a {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.regista-links a i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.regista-links a:hover {
+    color: #e55a5a;
+}
+
+/* -------------------------------------------
+   13. Sezione Location
+-------------------------------------------- */
+.location-section {
+    padding: 40px 20px;
+}
+
+.location-section h2.highlight {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #ff0000; 
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.location-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.location-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.location-item h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+    color: #333;
+    text-align: center;
+}
+
+.location-item p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 15px 15px;
+}
+
+.location-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* -------------------------------------------
+   14. Footer
+-------------------------------------------- */
+footer {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    color: #e55a5a;
+}
+
+/* -------------------------------------------
+   15. Pulsante Tema
+-------------------------------------------- */
+.theme-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--accent-color);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.theme-button:hover {
+    background-color: darkorange;
+}
+
+/* -------------------------------------------
+   16. Highlighted Titles
+-------------------------------------------- */
+.highlight {
+    color: var(--highlight-color);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* -------------------------------------------
+   17. Responsività delle Media Queries
+-------------------------------------------- */
+
+/* Large Devices */
+@media (max-width: var(--breakpoint-desktop)) {
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Riduce la larghezza minima a 220px */
+    }
+
+    .cardname {
+        font-size: 2.0em;
+    }
+
+    /* Altre regole specifiche per large devices */
+}
+
+/* Tablets */
+@media (max-width: var(--breakpoint-tablet)) {
+    .sottotitolo {
+        font-size: 1.2rem;
+    }
+
+    .search-bar {
+        width: 80%; /* Adatta la larghezza della barra di ricerca all'80% del contenitore padre */
+    }
+
+    .regista-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .regista-info {
+        text-align: center;
+    }
+
+    /* Nasconde le linee decorative */
+    .section-divider-icon::before,
+    .section-divider-icon::after {
+        display: none;
+    }
+
+    .carousel-images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .location-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .location-item {
+        width: 90%;
+    }
+
+    .flip-card-front p {
+        font-size: 0.9rem;
+    }
+
+    .flip-card-back h3,
+    .flip-card-back p {
+        font-size: 0.7rem;
+    }
+
+    .location-section {
+        padding: 30px 10px;
+    }
+
+    .location-section h2.highlight {
+        font-size: 1.8rem;
+    }
+
+    .location-item img {
+        height: 180px;
+    }
+
+    .location-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .location-item p {
+        font-size: 0.95rem;
+    }
+
+    aside.indice {
+        width: 150px; /* Esempio di modifica */
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: var(--breakpoint-mobile)) {
+    .sottotitolo {
+        font-size: 1rem;
+    }
+
+    .search-bar {
+        width: 100%; /* Imposta la larghezza della barra di ricerca al 100% del contenitore padre */
+        height: 40px; /* Riduce l'altezza della barra di ricerca */
+        border-radius: 20px; /* Arrotonda i bordi in base alla nuova altezza */
+    }
+
+    .search-bar button {
+        width: 80px; /* Riduce la larghezza del pulsante */
+        font-size: 0.9rem; /* Riduce la dimensione del font del pulsante */
+        border-radius: 0 20px 20px 0; /* Arrotonda solo gli angoli in alto a destra e in basso a destra */
+    }
+
+    .search-bar input[type="text"] {
+        padding: 8px 12px; /* Riduce il padding interno */
+        font-size: 0.9rem; /* Riduce la dimensione del font */
+    }
+
+    .card-container {
+        grid-template-columns: 1fr; /* Una colonna su schermi molto piccoli */
+    }
+
+    .flip-card-front img {
+        height: 75%;
+    }
+
+    .flip-card-back h3 {
+        font-size: 1rem;
+    }
+
+    .flip-card-back p {
+        font-size: 0.7rem;
+    }
+
+    .cardname {
+        font-size: 1.8em;
+    }
+
+    .location-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .location-item img {
+        height: 150px;
+    }
+
+    .location-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .location-item p {
+        font-size: 0.9rem;
+    }
+
+    aside.
+  
+ {
+        display: none; /* Nascondi l'indice su schermi molto piccoli */
+    }
+}
+
+
+
+------------------------------------- JS -------------------------------------------
+
+
+document.querySelectorAll('.indice a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+            const targetPosition = targetElement.offsetTop;
+            const startPosition = window.scrollY;
+            const distance = targetPosition - startPosition - 60; 
+            const duration = 2000; 
+            let startTime = null;
+
+            // Smooth easing function
+            function easeInOutQuad(t, b, c, d) {
+                t /= d / 2;
+                if (t < 1) return c / 2 * t * t + b;
+                t--;
+                return -c / 2 * (t * (t - 2) - 1) + b;
+            }
+
+   
+            function animation(currentTime) {
+                if (!startTime) startTime = currentTime;
+                const timeElapsed = currentTime - startTime;
+                const run = easeInOutQuad(timeElapsed, startPosition, distance, duration);
+                window.scrollTo(0, run);
+
+                if (timeElapsed < duration) {
+                    requestAnimationFrame(animation);
+                } else {
+                  
+                    window.scrollTo(0, targetPosition - 60);
+                }
+            }
+
+            requestAnimationFrame(animation);
+        }
+    });
+});
